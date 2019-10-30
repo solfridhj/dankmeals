@@ -63,6 +63,9 @@ function startMealGen() {
   if (!timer_is_on) {
     timer_is_on = 1;*/
 
+    //Resetting output field
+    document.getElementById("meal_generated").value="";
+    
     //Specify the fuctions that are to be called when pushing the button
     carbs_func();
     veg_func();
