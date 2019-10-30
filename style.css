@@ -49,6 +49,7 @@ html, body{
     display: none;
     z-index: 1;
     position: absolute;
+    top: 50px;
 }
 
 .dropdown-item{
@@ -61,6 +62,11 @@ html, body{
     display: block;
 }
 
+.dropdown-menu:hover {
+    margin-top: 0px;
+    padding-top: 0px;
+
+}
 
 .link {
     
@@ -78,6 +84,7 @@ html, body{
     padding: 10px;
     padding-right: 15px;
     padding-left: 15px;
+    margin-top: 0px;
     text-decoration-line: none;
     color: black;
     display: block;
@@ -85,6 +92,7 @@ html, body{
 
 .link:hover{
     background-color:  #7395AE;
+    padding-bottom: 7px;
 }
 
 .dropdown-link:hover{
@@ -170,7 +178,6 @@ html, body{
     }
 
     #logo a{
-        
         padding-right: 10px;
         padding-left: 10px;
         padding-top: 0px;
@@ -234,15 +241,7 @@ html, body{
         bottom: 100px;
         background-color: #9FBACE;
     }
-
-
-
-
-
 }
-
-
-
 
 /*Suggestions.html*/
 
@@ -309,6 +308,12 @@ html, body{
     position:relative;
     width:100%;
 }
+
+
+/*RECIPE PAGE LAYOUT*/
+
+
+
 
 /*Footer section*/
 
