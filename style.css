@@ -116,7 +116,31 @@ html, body{
     text-align: center;
     /*height: 100%; Remove this so that the article sections covers all the recipe items*/
 }
+.narrow-article{ /*Is needed to align the input fields*/
+    width: 360px;
+    /*width:80%*/
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    /*height: 100%; Remove this so that the article sections covers all the recipe items*/
+}
+#meal_generated{
+    height: 25px;
+    display: inline-block;
+    padding: 15px 5px;
+    font-size: 24px;
+   /* cursor: pointer;*/
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #000;
+    /*background-color: #5b44dd; /*rgb(31, 30, 102);*/
+    border: none;
+    border-radius: 15px; /*Larger border-radius makes the block rounder*/
+   /* box-shadow: 0 9px #999;*/
 
+
+}
 #headline {
     font-size: 36pt;
     text-align: center;
@@ -320,23 +344,74 @@ footer {
 /*Button behavior*/
 .button {
     display: inline-block;
-    padding: 15px 25px;
-    font-size: 24px;
+    padding: 25px 40px;
+    margin-left: 5px;
+    font-size: 35px; /*24px;*/
     cursor: pointer;
     text-align: center;
     text-decoration: none;
     outline: none;
     color: #fff;
-    background-color: rgb(31, 30, 102);
+    background-color:#f4511e;/*rgb(31, 30, 102);*/
+    opacity: 0.7;
     border: none;
-    border-radius: 15px;
+    border-radius: 100px; /*Larger border-radius makes the block rounder*/
     box-shadow: 0 9px #999;
 }
   
-.button:hover {background-color: #5b44dd}
+.button:hover {opacity:1; /* #5b44dd*/}
   
 .button:active {
-    background-color: #5b44dd;
+    background-color: #f80606/*#5b44dd;*/
     box-shadow: 0 5px #666;
     transform: translateY(4px);
+}
+
+#carbs {
+    height: 25px;
+    display: inline-block;
+    padding: 15px 5px;
+    font-size: 24px;
+   /* cursor: pointer;*/
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #5b44dd; /*rgb(31, 30, 102);*/
+    border: none;
+    border-radius: 15px; /*Larger border-radius makes the block rounder*/
+    box-shadow: 0 9px #999;
+
+}
+#veg {
+    height: 25px;
+    display: inline-block;
+    padding: 15px 5px;
+    font-size: 24px;
+   /* cursor: pointer;*/
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #5b44dd; /*rgb(31, 30, 102);*/
+    border: none;
+    border-radius: 15px; /*Larger border-radius makes the block rounder*/
+    box-shadow: 0 9px #999;
+
+}
+#meat {
+    height: 25px;
+    display: inline-block;
+    padding: 15px 5px;
+    font-size: 24px;
+   /* cursor: pointer;*/
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #5b44dd; /*rgb(31, 30, 102);*/
+    border: none;
+    border-radius: 15px; /*Larger border-radius makes the block rounder*/
+    box-shadow: 0 9px #999;
+
 }
