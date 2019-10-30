@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <title>DankMeals</title>
+        <link href="../style.css" rel="stylesheet">
+    </head>
+    <body>
+
+        <!-- NAVBAR SECTION EXCPECT CHANGES!!!-->
+        <div id="header">
+            <div id="header-nav">
+            <ul class="navbar">
+                <li class="navbar-page">
+                    <div id="logo">
+                        <a class="link" href="index.html">DankMeals</a>
+                    </div>
+                </li>
+                <li class="navbar-page dropdown">
+                    <div class="on-hover">
+                    <a class="link" href="recipe_repository/recipe.html">Recipes</a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-item">
+                            <a class="dropdown-link" href="recipe_repository/everyday.html">Everyday</a>
+
+                        </li>
+                        <li class="dropdown-item">
+                            <a class="dropdown-link" href="recipe_repository/party.html">Party</a>
+
+                        </li>
+                        <li class="dropdown-item">
+                            <a class="dropdown-link" href="recipe_repository/relax.html">Chill</a>
+
+                        </li>
+                    </ul>
+                    </div>
+                </li>
+
+                <li class="navbar-page">
+                    <a class="link" href="try_your_luck_meal.html">Try-your-luck</a>
+                </li>
+
+                <li class="navbar-page">
+                    <a class="link"href="about.html">About</a>
+                </li>
+
+                <li class="navbar-page">
+                    <a class="link" href="contact.html">Contact</a>
+                    
+                </li>
+                <li class="navbar-page">
+                    
+                    <form action="search.html" method="POST">
+                        
+                        <label for="search-bar">
+                            <input type="search" id="search-bar" placeholder="Search for food" required>
+                        </label>
+                    </form>
+                
+                </li>
+
+            </ul>
+            
+        </div>
+        </div>
+        <!-- END OF NAVBAR SECTION-->
+
+        <!--PAGE BODY => PAGE SPECIFIC CONTENT GOES HERE-->
+
+        <div class="article">
+            <div id="headline">
+                Suggestion form
+            </div>
+
+            <div id="text">
+                If you want to suggest a recipe, you may use the suggestion form 
+                below.
+            </div>
+
+            <div id="suggestion-form">
+                <form>
+                    <div class="suggestion-form-child" id="1">
+                    <label for="name">
+                        <input type="text" name="name" class="sug" placeholder="Your Name" required>
+                    </label>
+
+                    <label for="name-of-meal">
+                            <input type="text" name="name-of-meal" class="sug" placeholder="Name of Meal" required>
+                    </label>
+                    
+                    </div>
+
+                    <div class="suggestion-form-child" id="2">
+                    
+
+                    <label for="email">
+                            <input type="text" name="email" class="sug" placeholder="E-mail adress" required>
+                    </label>
+                    
+                    <label for="nr-servings">
+                            <input type="text" name="nr-servings" class="sug" placeholder="Number of servings" required>
+                    </label>
+                    </div>
+
+                    <div class="suggestion-form-child" id="ingredients">
+
+                            <label for="ing1">
+                                    <input type="text" name="ing1" class="sug" placeholder="Ingredient 1" required>
+                            </label>
+                            
+                            <label for="ing2">
+                                    <input type="text" name="ing2" class="sug" placeholder="Ingredient 2" required>
+                            </label>
+                        
+                            <label for="ing3">
+                                    <input type="text" name="ing4" class="sug" placeholder="Ingredient 3" required> 
+                            </label>
+                    </div>
+
+                    <div class="suggestion-form-child">
+                            <!-- TODO: Add more ingredients when button is pressed-->
+                            <label for="add-ing">
+                                    <input type="button" name="add-ing" class="sug" id="add-ing" value="Add more ingredients">
+                            </label>
+                            
+                    </div>
+
+                    <label for="procedure" style="height:200px; padding-top: 30px;">
+                            <textarea name="procedure" id="proc" cols="90" row="100" wrap='soft' style="height:200px;" required>
+                                Type instructions here.
+                            </textarea>
+                    </label>
+
+                    <label for="submit-buttom" onclick="alert('Suggestion submitted')">
+                        <input type="submit" id="submit" value="Submitt suggestion">
+                    </label>
+
+                </form>
+                            
+
+            </div>
+        </div>
+        <!--END OF PAGE SPECIFIC CONTENT-->
+
+        <footer>
+            Dank Meals
+        </footer>
+        
+    </body>
+</html>

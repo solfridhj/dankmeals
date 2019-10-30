@@ -1,0 +1,342 @@
+/* Section for navbar */
+html, body{
+    margin: 0;
+    background-color: #D9D9D9;
+    font-weight: 300;
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#header{
+    height: 50px;
+    width: 100%;
+    background-color:#9FBACE;
+    font-size: 20pt;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+#header-nav {
+    height: 50px;
+    width: 1130px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;    
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    text-align: center;
+}
+
+.navbar-page{
+    display: block;
+    float: left;
+
+}
+
+
+.dropdown-menu {
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    text-align: center;
+    overflow: hidden;
+    display: none;
+    z-index: 1;
+    position: absolute;
+}
+
+.dropdown-item{
+    color: black;
+    background-color: #7395AE;
+    
+}
+
+.on-hover:hover .dropdown-menu{
+    display: block;
+}
+
+
+.link {
+    
+    margin-right: 0px;
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-decoration-line: none;
+    color: black;
+    display: block;
+}
+
+.dropdown-link {
+    margin-right: 0px;
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-decoration-line: none;
+    color: black;
+    display: block;
+}
+
+.link:hover{
+    background-color:  #7395AE;
+}
+
+.dropdown-link:hover{
+    background-color: rgb(48, 60, 68);
+}
+
+#search-bar {
+    margin-top: 15px;
+    height: 18px;
+    width: 120px;
+    background-color: white;
+}
+
+#logo {
+    color: white;
+    background-color:  #8B99A3;
+}
+
+
+
+/*Article  section*/
+
+.article {
+    width: 960px;
+    background-color:#E9E9E9;
+    /*width:80%*/
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    /*height: 100%; Remove this so that the article sections covers all the recipe items*/
+}
+
+#headline {
+    font-size: 36pt;
+    text-align: center;
+    padding-top: 30px;
+    text-align: center;
+}
+
+/*RESPONSIVE */
+
+@media screen and (min-width: 1130px){
+    #small-header{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1130px){
+    /*Medium sized screen. Navbar still same, but no search*/ 
+    #header-nav {
+        width: 100%;
+    }
+
+    #search-bar{
+        display: none;
+    }
+
+    .article{
+        width: 100%;
+    }
+
+    #small-header {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 960px){
+    /*Setting css for small screen header*/
+    #header {
+        display: none;
+    }
+
+    #small-header {
+        display: inline-block;
+        width: 100%;
+        
+    }
+
+    #logo {
+        width: 110px;
+    }
+
+    #logo a{
+        width: 100px;
+        padding-right: 0px;
+        padding-left: 10px; 
+    }
+
+    #small-dropdown {
+        display: none;
+        text-decoration-line: none;
+        list-style-type: none;
+        overflow: hidden;
+        float: right;
+        background-color: #9FBACE;
+        width: 100%;;
+    }
+
+    #to-hov {
+        position: absolute;
+        right: 15px;
+        top: -20px;
+        padding: 5px;
+    }
+
+    #small-on-hover:hover #small-dropdown{
+        display: block;
+        text-decoration-line: none;
+        
+        
+    }
+
+    #small-on-hover{
+        position: absolute;
+        top: 23px;
+        text-align: left;
+        width: 100%;
+    }
+
+    #small-dropdown li {
+        margin: 10px;
+        border-bottom: 0.4px solid rgb(197, 197, 197);
+
+    }
+
+    
+
+    #small-dropdown a {
+        color:rgb(0, 0, 0); 
+        text-decoration-line: none;
+        display: block;
+        padding-bottom: 2px;
+    }
+
+    #under a{
+        font-size: 7pt;
+        color:rgb(255, 255, 255); 
+
+    }
+
+    #to-hov:hover {
+        bottom: 100px;
+        
+        background-color: #9FBACE;
+        
+    }
+
+
+
+
+
+}
+
+
+
+
+/*Suggestions.html*/
+
+
+#suggestion-form {
+    
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    display: inline;
+
+}
+
+.suggestion-form-child {
+    width: 95%;
+}
+
+#ingredients {
+    height: 150px;
+    display: grid;
+}
+
+.sug {
+    margin-top: 15px;
+    height: 23px;
+    width: 190px;
+    background-color: white;
+    
+}
+
+#add-ing{
+    margin-bottom: 20px;
+}
+
+#submit {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+/*Recipe subpages*/
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 20px 0;
+    align-content: center;
+    justify-content: center;
+}
+/*Splitting of screen in different parts*/
+.three-split{
+    max-width: 23%; /*23% + margin allows for three recipe elements per row*/
+    margin: 15px 15px;
+    padding: 15px 15px;
+    background-color: white;
+}
+
+/*Hover*/
+.hover-shadow:hover{
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+/*Image behavior*/
+.img {
+    position:relative;
+    width:100%;
+}
+
+/*Footer section*/
+
+footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color:  #7395AE;
+}
+
+/*Button behavior*/
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(31, 30, 102);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+  
+.button:hover {background-color: #5b44dd}
+  
+.button:active {
+    background-color: #5b44dd;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
