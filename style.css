@@ -12,7 +12,7 @@ html, body{
     width: 100%;
     background-color:#9FBACE;
     font-size: 20pt;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
@@ -49,6 +49,7 @@ html, body{
     display: none;
     z-index: 1;
     position: absolute;
+    top: 50px;
 }
 
 .dropdown-item{
@@ -61,6 +62,11 @@ html, body{
     display: block;
 }
 
+.dropdown-menu:hover {
+    margin-top: 0px;
+    padding-top: 0px;
+
+}
 
 .link {
     
@@ -78,6 +84,7 @@ html, body{
     padding: 10px;
     padding-right: 15px;
     padding-left: 15px;
+    margin-top: 0px;
     text-decoration-line: none;
     color: black;
     display: block;
@@ -85,6 +92,7 @@ html, body{
 
 .link:hover{
     background-color:  #7395AE;
+    padding-bottom: 7px;
 }
 
 .dropdown-link:hover{
@@ -101,6 +109,7 @@ html, body{
 #logo {
     color: white;
     background-color:  #8B99A3;
+    height: 50px;
 }
 
 
@@ -150,13 +159,13 @@ html, body{
 
 /*RESPONSIVE */
 
-@media screen and (min-width: 1130px){
+@media screen and (min-device-width: 1130px), (min-width: 1130px){
     #small-header{
         display: none;
     }
 }
 
-@media screen and (max-width: 1130px){
+@media screen and (max-device-width: 1130px), (max-width: 1130px){
     /*Medium sized screen. Navbar still same, but no search*/ 
     #header-nav {
         width: 100%;
@@ -175,7 +184,7 @@ html, body{
     }
 }
 
-@media screen and (max-width: 960px){
+@media screen and (max-device-width: 960px), (max-width: 960px){
     /*Setting css for small screen header*/
     #header {
         display: none;
@@ -184,17 +193,19 @@ html, body{
     #small-header {
         display: inline-block;
         width: 100%;
-        
     }
 
     #logo {
-        width: 110px;
+        height: 50px;
+        width: 240px;
+        font-size: 40px;
     }
 
     #logo a{
-        width: 100px;
-        padding-right: 0px;
-        padding-left: 10px; 
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 0px;
+        padding-bottom: 0px;
     }
 
     #small-dropdown {
@@ -204,21 +215,23 @@ html, body{
         overflow: hidden;
         float: right;
         background-color: #9FBACE;
-        width: 100%;;
+        width: 100%;
+        margin-top: 27px;
     }
 
     #to-hov {
         position: absolute;
         right: 15px;
         top: -20px;
-        padding: 5px;
+        padding-right: 5px;
+        padding-left: 5px;
+        padding-top: 0px;
+        padding-bottom: 10px;
     }
 
     #small-on-hover:hover #small-dropdown{
         display: block;
         text-decoration-line: none;
-        
-        
     }
 
     #small-on-hover{
@@ -231,7 +244,6 @@ html, body{
     #small-dropdown li {
         margin: 10px;
         border-bottom: 0.4px solid rgb(197, 197, 197);
-
     }
 
     
@@ -241,29 +253,19 @@ html, body{
         text-decoration-line: none;
         display: block;
         padding-bottom: 2px;
+        font-size: 20pt;
     }
 
     #under a{
-        font-size: 7pt;
+        font-size: 17pt;
         color:rgb(255, 255, 255); 
-
     }
 
     #to-hov:hover {
         bottom: 100px;
-        
         background-color: #9FBACE;
-        
     }
-
-
-
-
-
 }
-
-
-
 
 /*Suggestions.html*/
 
@@ -330,6 +332,12 @@ html, body{
     position:relative;
     width:100%;
 }
+
+
+/*RECIPE PAGE LAYOUT*/
+
+
+
 
 /*Footer section*/
 
