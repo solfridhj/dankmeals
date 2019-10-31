@@ -384,10 +384,6 @@ html, body{
 }
 
 
-
-
-
-
 /*Footer section*/
 
 footer {
@@ -419,7 +415,7 @@ footer {
 .button:hover {opacity:1; /* #5b44dd*/}
   
 .button:active {
-    background-color: #f80606/*#5b44dd;*/
+    background-color: #f80606;/*#5b44dd;*/
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
