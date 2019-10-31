@@ -350,10 +350,9 @@ html, body{
 }
 
 .recipe-child {
-    width: 300px;
+    width: 600px;
     height: 400px;
-    background-color: white;
-    margin-bottom: 20px;;
+    margin-bottom: 20px;
 }
 
 .ingredients {
@@ -377,10 +376,58 @@ html, body{
 
 #ing-headline {
     margin-top: 10px;
+    color: rgb(55, 71, 83);
+  
 }
 
 #portion-number {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
+    text-align: start;
+    position: relative;
+    left: 25px;
+}
+
+#ingredients-box {
+    width: 250px;
+    background-color: white;
+}
+
+#recipe-name {
+    font-size: 36pt;
+    position: relative;
+    text-align: start;
+    left: 20px;
+}
+
+#recipe-instructions {
+    text-align: start;
+}
+
+#recipe-instructions li {
+    margin: 5px;
+}
+
+@media screen and (max-device-width: 960px), (max-width: 960px){
+    #ingredients-box {
+        width: 100%;
+        height: 200px;
+    }
+
+    .ing {
+        padding: 2px;
+    }
+
+    .ing-line {
+        display: none;
+    }
+
+    #portion-number {
+        margin-bottom: 10px;
+        text-align: start;
+        position: relative;
+        left: 25px;
+    }
+
 }
 
 
