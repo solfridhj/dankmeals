@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <title>DankMeals</title>
+        <link href="../../style.css" rel="stylesheet">
+    </head>
+    <body>
+
+        <!-- NAVBAR SECTION -->
+
+        <!-- Large navbar-->
+        <div id="header">
+                <div id="header-nav">
+                <ul class="navbar">
+                    <li class="navbar-page">
+                        <div id="logo">
+                            <a class="link" href="../../index.html">DankMeals</a>
+                        </div>
+                    </li>
+                    <li class="navbar-page dropdown">
+                        <div class="on-hover">
+                        <a class="link" href="../recipe.html">Recipes</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="../everyday.html">Everyday</a>
+    
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="../party.html">Party</a>
+    
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="../relax.html">Chill</a>
+    
+                            </li>
+                        </ul>
+                        </div>
+                    </li>
+    
+                    <li class="navbar-page">
+                        <a class="link" href="../../try_your_luck_meal.html">Try-your-luck</a>
+                    </li>
+    
+                    <li class="navbar-page">
+                        <a class="link"href="../../about.html">About</a>
+                    </li>
+    
+                    <li class="navbar-page">
+                        <a class="link" href="../../contact.html">Contact</a>
+                        
+                    </li>
+                    <li class="navbar-page">
+                        
+                        <form action="../../search.html" method="POST">
+                            
+                            <label for="search-bar">
+                                <input type="search" id="search-bar" placeholder="Search for food" required>
+                            </label>
+                        </form>
+                    
+                    </li>
+    
+                </ul>
+                
+            </div>
+            </div>
+            <!--End large navbar-->
+    
+            <!-- Header for small screens -->
+            <div id="small-header">
+                <div id="logo">
+                    <a id="logo"class="link" href="../../index.html">DankMeals</a>
+                </div>
+    
+                <div id="small-on-hover">
+    
+                        <img id="to-hov" src="../../menu.svg" width="40px" height="40px">
+    
+                    <ul id="small-dropdown">
+    
+                        <li>
+                            <a href="../recipe.html">Recipes</a>
+                        </li>
+    
+                        <li id="under">
+                            <a href="../everyday.html">Everyday</a>
+                        </li>
+    
+                        <li id="under">
+                            <a href="../party.html">Party</a>
+                        </li>
+    
+                        <li id="under">
+                            <a href="../relax.html">Relax</a>
+                        </li>
+    
+                        <li>
+                            <a href="../../try_your_luck_meal.html">Try-your-luck</a>
+                        </li>
+    
+                        <li>
+                            <a href="../about.html">About</a>
+                        </li>
+    
+                        <li>
+                            <a href="../contact.html">Contact</a>
+                        </li>
+                    </ul>
+                
+    
+                </div>
+            </div>
+            <!-- End of header for small screens -->
+    
+            <!-- END OF NAVBAR SECTION-->
+
+
+        <!--PAGE BODY => PAGE SPECIFIC CONTENT GOES HERE-->
+        <div class="article" style="height: 100%;">
+
+            <div class="recipe-container">
+
+                <div class="recipe-child" id="ingredients-box">
+                    <div id="ing-headline">INGREDIENTS</div>
+                    <br>
+                    <div id="portion-number">
+                    <input type="text" id="portions" size="2" height="30" value="4" maxlength="2" max="20"> portions </div>
+
+                    <div class="ingredients">
+
+                    
+                        <div class="ing"><div class="ing-amount" id="ing1">500</div> g flour</div>
+                        <hr class="ing-line">
+
+                        <div class="ing"><div class="ing-amount" id="ing2">0.5</div> packs yeast</div>
+                        <hr class="ing-line">
+
+                        <div class="ing"><div class="ing-amount" id="ing3">2</div> ts salt</div>
+                        <hr class="ing-line">
+
+                        <div class="ing"><div class="ing-amount" id="ing4">0.5</div> liters of water</div>
+                        <hr class="ing-line">
+
+                        <div class="ing"><div class="ing-amount" id="ing5">1</div> dl oliveoil</div>
+                        <hr class="ing-line">
+
+                        <div class="ing"><div class="ing-amount" id="ing5">3</div> crushed cloves of garlic</div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="recipe-child">
+
+                <div id="recipe-name">Foccacia</div>
+
+                <div id="recipe-instructions">
+                    <ol>
+                        <li>
+                            Mix flour, yeast, salt and water. Kned the dough. 
+
+                        </li>
+
+                        <li>
+                            Let the dough rise for 30 minutes.
+                        </li>
+                        <li>
+                            Pour into a pan, with paper in the bottom. Pour oil over the dough,
+                             and the garlic colves.
+                        </li>
+                        <li>
+                            Add salt, and spices.
+                        </li>
+                        <li>
+                            Cover the dough, and let it rise for an hour
+                        </li>
+                        <li>
+                            Let it bake in the oven at 250 degrees for 25 minutes.
+                        </li>
+                    </ol>
+
+                </div>
+
+                <img id="recipe-image" src="../../img/foccacia.jpg" width="600px">
+
+                </div>
+            </div>  
+        </div>  
+
+        <!--END OF PAGE SPECIFIC CONTENT-->
+
+        <footer>
+            This is a footer
+            <!--
+            <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/"         title="Flaticon">www.flaticon.com</a></div>
+            -->
+        </footer>
+        
+    </body>
+</html>
