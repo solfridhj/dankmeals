@@ -77,7 +77,7 @@
                 If you want to suggest a recipe, you may use the suggestion form 
                 below.
             </div>
-
+            <br>
             <div id="suggestion-form">
                 <form>
                     <div class="suggestion-form-child" id="1">
@@ -102,8 +102,8 @@
                             <input type="text" name="nr-servings" class="sug" placeholder="Number of servings" required>
                     </label>
                     </div>
-
-                    <div class="suggestion-form-child" id="ingredients">
+                    <br>
+                    <div class="suggestion-form-child" id="1&2">
 
                             <label for="ing1">
                                     <input type="text" name="ing1" class="sug" placeholder="Ingredient 1" required>
@@ -112,30 +112,47 @@
                             <label for="ing2">
                                     <input type="text" name="ing2" class="sug" placeholder="Ingredient 2" required>
                             </label>
-                        
-                            <label for="ing3">
-                                    <input type="text" name="ing4" class="sug" placeholder="Ingredient 3" required> 
-                            </label>
                     </div>
 
+                    <div class="suggestion-form-child" id="3&4">
+                            <label for="ing3">
+                                    <input type="text" name="ing3" class="sug" placeholder="Ingredient 3" required> 
+                            </label>
+
+                            <label for="ing4">
+                                <input type="text" name="ing4" class="sug" placeholder="Ingredient 4" required> 
+                        </label>
+                    </div>
+                    
+                    <div class="suggestion-form-child" id="5&6">
+                        <label for="ing5">
+                                <input type="text" name="ing5" class="sug" placeholder="Ingredient 5" required> 
+                        </label>
+
+                        <label for="ing6">
+                            <input type="text" name="ing6" class="sug" placeholder="Ingredient 6" required> 
+                    </label>
+                    </div>
+                    <br>
+                    <!--
                     <div class="suggestion-form-child">
-                            <!-- TODO: Add more ingredients when button is pressed-->
+                            TODO: Add more ingredients when button is pressed
                             <label for="add-ing">
                                     <input type="button" name="add-ing" class="sug" id="add-ing" value="Add more ingredients">
                             </label>
                             
-                    </div>
-
+                    </div> -->
                     <label for="procedure" style="height:200px; padding-top: 30px;">
                             <textarea name="procedure" id="proc" cols="90" row="100" wrap='soft' style="height:200px;" required>
                                 Type instructions here.
                             </textarea>
                     </label>
-
+                    <br>
+                    <br>
                     <label for="submit-buttom" onclick="alert('Suggestion submitted')">
                         <input type="submit" id="submit" value="Submitt suggestion">
                     </label>
-
+                    
                 </form>
                             
 
