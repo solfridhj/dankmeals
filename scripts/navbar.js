@@ -102,6 +102,16 @@ function recipe(){
                             <li>
                                 <a href="../contact.html">Contact</a>
                             </li>
+                            <li>
+
+                                <form action="../../search.html" method="POST">
+                                    
+                                    <label for="small-search-bar">
+                                        <input type="search" id="small-search-bar" placeholder="Search for food" required>
+                                    </label>
+                                </form>
+                    
+                            </li>
                         </ul>
                     
         
@@ -220,6 +230,16 @@ function recipe_rep(){
                         <li>
                             <a href="../contact.html">Contact</a>
                         </li>
+                        <li>
+
+                    <form action="../search.html" method="POST">
+                        
+                        <label for="small-search-bar">
+                            <input type="search" id="small-search-bar" placeholder="Search for food" required>
+                        </label>
+                    </form>
+                    
+                </li>
                     </ul>
                 
     
@@ -334,6 +354,17 @@ function no_dir() {
 
                 <li>
                     <a href="contact.html">Contact</a>
+                </li>
+
+                <li>
+
+                <form action="search.html" method="POST">
+                    
+                    <label for="small-search-bar">
+                        <input type="search" id="small-search-bar" placeholder="Search for food" required>
+                    </label>
+                </form>
+                    
                 </li>
             </ul>
         
