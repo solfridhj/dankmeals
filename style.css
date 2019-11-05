@@ -5,8 +5,7 @@ html, body{
     font-weight: 300;
     height: 100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
-    margin-bottom: 20px;
+    min-height: 100%;
 }
 
 #header{
@@ -126,6 +125,8 @@ html, body{
     margin-right: auto;
     text-align: center;
     /* height: 100%; Remove this so that the article sections covers all the recipe items */
+    min-height: 100%;
+    margin-bottom: 20px;
 }
 .narrow-article{ /*Is needed to align the input fields*/
     width: 360px;
@@ -371,6 +372,10 @@ h3 {
     margin-right: auto;
     text-align: center;
     width: 800px;
+}
+
+.par{
+    height: 95px;
 }
 
 #sug-link:hover{
