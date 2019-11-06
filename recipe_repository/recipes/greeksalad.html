@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <title>DankMeals</title>
+        <link href="../../style.css" rel="stylesheet">
+        <script src="../../scripts/navbar.js"></script>
+    </head>
+    <body>
+
+        <!-- Importing navbar html-->
+        <script>
+                recipe()
+        </script>
+
+        <!--PAGE BODY => PAGE SPECIFIC CONTENT GOES HERE-->
+        <div class="article" style="height: 100%;">
+
+            <div class="recipe-container">
+
+                <div id="headline-small-screen">Gresk salat</div>
+                
+                <div class="recipe-child" id="ingredients-box">
+                    <div id="ing-headline">INGREDIENTS</div>
+                    <br>
+                    <div id="portion-number">
+                    <input type="text" id="portions" size="2"  value="4" maxlength="2"  oninput="calc_ingredients()"> portions </div>
+
+                    <div class="ingredients">
+
+                    
+                        <div class="ing"><div class="ing-amount" id="ing1">2</div> pieces of tomato</div>
+                        <hr class="ing-line">
+
+                        <div class="ing"><div class="ing-amount" id="ing2">0.5</div> cucumbers </div>
+                        <hr class="ing-line">
+
+                        <div class="ing"><div class="ing-amount" id="ing3">0.5</div> red onions</div>
+                        <hr class="ing-line">
+
+                        <div class="ing"><div class="ing-amount" id="ing4">4</div> leaves of salad</div>
+                        <hr class="ing-line">
+
+                        <div class="ing"><div class="ing-amount" id="ing5">1</div> glas of feta cheese in oil </div>
+                        <hr class="ing-line">
+
+                        <div class="ing"><div class="ing-amount" id="ing5">1</div> glas of black olives</div>
+                        <hr class="ing-line">
+
+                        <div class="ing"><div class="ing-amount" id="ing5">3</div> dl of tzstziki </div>
+                       
+    
+                    </div>
+
+                </div>
+
+
+                <div class="recipe-child">
+
+                <div id="recipe-name">Gresk salat</div>
+
+                <div id="recipe-instructions">
+                    <ol>
+                        <li>
+                            Cut the tomato and cucumber in slices. Chop up salad.
+
+                        </li>
+
+                        <li>
+                            Mix together all the ingredients. Put the salad on the plate and put on some oil from the feta cheese and tzatziki.
+                        </li>
+                       
+                      
+                        <em>Tip:</em> Make your on tzatziki! Its delicious.  
+                        
+                    </ol>
+
+                </div>
+
+                <img id="recipe-image" src="../../img/greeksalad.jpg" width="600px">
+
+                </div>
+            </div>  
+        </div>  
+
+        <!--END OF PAGE SPECIFIC CONTENT-->
+
+        <footer>
+            This is a footer
+            <!--
+            <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/"         title="Flaticon">www.flaticon.com</a></div>
+            -->
+        </footer>
+
+        <script type="text/javascript" src="../../scripts/calc_ingredients.js"></script>
+        
+    </body>
+</html>
