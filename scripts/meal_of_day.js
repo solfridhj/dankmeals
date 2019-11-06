@@ -2,14 +2,14 @@ var focaccia = {
     name : "Focaccia!",
     link : "focaccia.html",
     img_source : "focaccia.jpg",
-    description : "Focaccia is delicious, served with aioli and is amazing alongside bolognese sauce"
+    description : "Focaccia is delicious, served with aioli and is amazing alongside bolognese sauce."
 }
 
 var tapas = {
     name: "Tapas",
     link: "tapas.html",
     img_source: "tapas.jpg",
-    description: "TAPAAAS YAY det er så sykt digg. solfrid er megafan av tapas yummmm"
+    description: "Tapas is amazingly tasty fingerfood from the Spanish kitchen."
 }
 
 var vaffel = {
@@ -20,7 +20,7 @@ var vaffel = {
 }
 
 
-var meals = [focaccia, tapas,vaffel]
+var meals = [focaccia, tapas, vaffel]
 
 // Updates the meal of the day
 function updateMealOfDay(currentIndex){

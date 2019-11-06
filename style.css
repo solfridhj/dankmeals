@@ -273,19 +273,16 @@ html, body{
     }
 }
 
-/*Suggestions.html*/
+/* SUGGESTIONS */
 
 
 #suggestion-form {
-    margin-left: 0;
-    margin-right: 0;
-    text-align: center;
-    display: inline;
-
+    width: 100%;
 }
 
 .suggestion-form-child {
     width: 100%;
+    text-align: center;
 }
 
 #ingredients {
@@ -301,6 +298,37 @@ html, body{
     background-color: white;
     
 }
+
+.textArea #proc-sug{
+    text-align: start;
+}
+
+#proc-sug{
+    height: 250px;
+    width: 550px;
+    margin-bottom: 10px;
+    resize: none;
+
+
+}
+
+@media screen and (max-device-width: 1035px), (max-width: 1035px){
+
+    #proc-sug{
+        height: 250px;
+        width: 490px;
+        margin-bottom: 10px;
+        resize: none;
+    
+    
+    }
+
+}
+
+
+
+/* END OF SUGGESTIONS */
+
 
 #submit {
     display: block;
@@ -627,13 +655,18 @@ h3 {
 
 /* INDEX */
 
-#meal-of-day{
+.article #meal-suggestion{
     padding-top: 40px;
-    padding-bottom: 10px;
-    text-align: start;
+}
+
+#meal-suggestion{
+    text-align: center;
     margin-left: 18px;
+    margin-right: 18px;
+}
+
+#meal-of-day{
     font-size: 36pt;
-    width: fit-content;
 }
 
 #meal-name{
@@ -641,9 +674,8 @@ h3 {
 }
 
 #meal-description{
-    margin-bottom: 20px;
-    text-align: start;
-    margin-left: 18px;
+    font-size: 14pt;
+
 }
 
 #meal-link{
@@ -670,6 +702,7 @@ h3 {
 }
 
 #about-us-image {
+    margin-top: 10px;
     width: 80%;
     max-width: 500px;
 }
@@ -678,12 +711,7 @@ h3 {
 
 /* CONTACT */
 
-#contact-desc{
-        text-align: start;
-        
-        font-size: 14pt;
-        line-height: 1.6;
-}
+
 
 #contact-body{
     margin-left: 36px;
@@ -697,6 +725,15 @@ h3 {
 
 
 }
+
+#contact-desc{
+        text-align: start;
+        
+        font-size: 14pt;
+        line-height: 1.6;
+}
+
+
 
 #contact-form {
     margin-top: 10px;
@@ -716,6 +753,22 @@ h3 {
     background-color: white;
 }
 
+
+#proc{
+    height: 250px;
+    width:100%;
+    margin-bottom: 10px;
+    resize: none;
+
+}
+
+#submit-button{
+    border-color: black;
+    border-width: 1px;
+    padding: 5px 25px 5px 25px;
+    font-size: 12pt;
+
+}
+
+
 /* END CONTACT */
-
-
