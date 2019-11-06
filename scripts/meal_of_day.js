@@ -12,8 +12,15 @@ var tapas = {
     description: "TAPAAAS YAY det er så sykt digg. solfrid er megafan av tapas yummmm"
 }
 
+var vaffel = {
+    name: "vaffel",
+    link: "vaffel.html",
+    img_source: "vaffel.jpg",
+    description: "Vaffel er kosemat!"
+}
 
-var meals = [focaccia, tapas]
+
+var meals = [focaccia, tapas,vaffel]
 
 // Updates the meal of the day
 function updateMealOfDay(currentIndex){
