@@ -71,7 +71,7 @@ function recipe(){
         
                     <div id="small-on-hover">
         
-                            <img id="to-hov" src="../../menu.svg" width="40px" height="40px">
+                            <img id="to-hov" src="../../menu.png" width="40px" height="40px">
         
                         <ul id="small-dropdown">
         
@@ -96,11 +96,11 @@ function recipe(){
                             </li>
         
                             <li>
-                                <a href="../about.html">About</a>
+                                <a href="../../about.html">About</a>
                             </li>
         
                             <li>
-                                <a href="../contact.html">Contact</a>
+                                <a href="../../contact.html">Contact</a>
                             </li>
                             <li>
 
@@ -199,7 +199,7 @@ function recipe_rep(){
     
                 <div id="small-on-hover">
     
-                        <img id="to-hov" src="../menu.svg" width="40px" height="40px">
+                        <img id="to-hov" src="../menu.png" width="40px" height="40px">
     
                     <ul id="small-dropdown">
     
@@ -324,7 +324,7 @@ function no_dir() {
 
         <div id="small-on-hover">
 
-                <img id="to-hov" src="menu.svg" width="40px" height="40px">
+                <img id="to-hov" src="menu.png" width="40px" height="40px">
 
             <ul id="small-dropdown">
 

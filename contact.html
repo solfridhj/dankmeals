@@ -5,6 +5,7 @@
         <meta charset="UTF-8">
         <title>DankMeals</title>
         <link href="style.css" rel="stylesheet">
+        <link rel="icon" type="image/png" href="DM.png">
         <script src="scripts/navbar.js"></script>
     </head>
     <body>
@@ -24,7 +25,10 @@
             <div id="contact-body">
                 <div id="contact-desc">
                     We always love to hear from you and appreciate any feedback you may have for us. 
-                    Whether it is one of our recipes, if you have any questions or if you just want to share your ideas with us, use the provided contact form below!
+                   Whether it is one of our recipes, if you have any questions or if you just want to share your ideas with us, use the provided contact form below!
+                   <br><br>
+                   If you would like to suggest your own recipe, please use our suggestion form <a id="to-sug-link" href="recipe_repository/suggestions.html">here.</a>
+                   
                 </div>
 
                 <div id="contact-subtitle">
@@ -35,14 +39,14 @@
                     <form action="recipe_repository/submitted.html" method="POST">
                         <div class="contact-form-child" id="contact-enter-name">
                         <label for="name">
-                            <input type="text" name="name" class="con" placeholder="Your Name" pattern="^^[a-zA-ZæøåÆØÅ\s\-]*$" autofocus>
+                            <input type="text" name="name" class="con" placeholder="Your Name" pattern="^^[a-zA-ZæøåÆØÅ\s\-]*$" autofocus required>
                         </label>
 
                         </div>
 
                         <div class="contact-form-child" id="contact-enter-email">
                         <label for="email">
-                                <input type="text" name="email" class="con" placeholder="E-mail adress" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                                <input type="text" name="email" class="con" placeholder="E-mail adress" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
                         </label>
                         </div>
                         <br>

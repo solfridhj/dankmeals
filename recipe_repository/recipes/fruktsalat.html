@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <title>DankMeals</title>
+        <link href="../../style.css" rel="stylesheet">
+        <script src="../../scripts/navbar.js"></script>
+    </head>
+    <body>
+
+        <!-- Importing navbar html-->
+        <script>
+                recipe()
+        </script>
+
+        <!--PAGE BODY => PAGE SPECIFIC CONTENT GOES HERE-->
+        <div class="article" style="height: 100%;">
+
+            <div class="recipe-container">
+
+                <div id="headline-small-screen">Fruktsalat</div>
+                
+                <div class="recipe-child" id="ingredients-box">
+                    <div id="ing-headline">INGREDIENTS</div>
+                    <br>
+                    <div id="portion-number">
+                    <input type="text" id="portions" size="2"  value="4" maxlength="2"  oninput="calc_ingredients()"> portions </div>
+
+                    <div class="ingredients">
+
+                    
+                        <div class="ing"><div class="ing-amount" id="ing1">1</div> vanilla bean</div>
+                        <hr class="ing-line">
+
+                        <div class="ing"><div class="ing-amount" id="ing2">3</div> dl water </div>
+                        <hr class="ing-line">
+
+                        <div class="ing"><div class="ing-amount" id="ing3">50</div> g sugar</div>
+                        <hr class="ing-line">
+
+                        <div class="ing"><div class="ing-amount" id="ing4">2</div> g oranges</div>
+                        <hr class="ing-line">
+
+                        <div class="ing"><div class="ing-amount" id="ing5">1</div> pack of green grapes, á 500 g </div>
+                        <hr class="ing-line">
+
+                        <div class="ing"><div class="ing-amount" id="ing5">200</div>g strawberry</div>
+                        <hr class="ing-line">
+
+                        <div class="ing"><div class="ing-amount" id="ing5">1</div> banana </div>
+                        <hr class="ing-line">
+
+                        <div class="ing"><div class="ing-amount" id="ing5">2</div> red apples </div>
+
+        
+                    </div>
+
+                </div>
+
+
+                <div class="recipe-child">
+
+                <div id="recipe-name">Fruktsalat</div>
+
+                <div id="recipe-instructions">
+                    <ol>
+                        <li>
+                            Cut the vanilla bean and scrape out the seeds with a knife. Boil water, sugar and vanilla bean with seeds. Cool down.
+
+                        </li>
+
+                        <li>
+                            Use a sharp knife and cut the top and bottom of the orange. Peel the rest of the orange. Put the orange in a bowl.
+                        </li>
+                        <li>
+                            Cut grapes in two, strawberries in four. Cut the banana in pieces and the apple in boats. Put the fruit in a bowl with the orange and mix all together. 
+                        </li>
+                        <li>
+                            Poor over the sugar water and let the fruit absorb some of the sugar water before serving.  
+                        </li>
+                      
+                        <em>Tip:</em> Serve with chopped almonds.  
+                        
+                        
+                    </ol>
+
+                </div>
+
+                <img id="recipe-image" src="../../img/fruktsalat.jpg" width="600px">
+
+                </div>
+            </div>  
+        </div>  
+
+        <!--END OF PAGE SPECIFIC CONTENT-->
+
+        <footer>
+            This is a footer
+            <!--
+            <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/"         title="Flaticon">www.flaticon.com</a></div>
+            -->
+        </footer>
+
+        <script type="text/javascript" src="../../scripts/calc_ingredients.js"></script>
+        
+    </body>
+</html>

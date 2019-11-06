@@ -126,7 +126,7 @@ html, body{
     text-align: center;
     /* height: 100%; Remove this so that the article sections covers all the recipe items */
     min-height: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 .narrow-article{ /*Is needed to align the input fields*/
     width: 360px;
@@ -273,19 +273,16 @@ html, body{
     }
 }
 
-/*Suggestions.html*/
+/* SUGGESTIONS */
 
 
 #suggestion-form {
-    margin-left: 0;
-    margin-right: 0;
-    text-align: center;
-    display: inline;
-
+    width: 100%;
 }
 
 .suggestion-form-child {
     width: 100%;
+    text-align: center;
 }
 
 #ingredients {
@@ -301,6 +298,37 @@ html, body{
     background-color: white;
     
 }
+
+.textArea #proc-sug{
+    text-align: start;
+}
+
+#proc-sug{
+    height: 250px;
+    width: 550px;
+    margin-bottom: 10px;
+    resize: none;
+
+
+}
+
+@media screen and (max-device-width: 1035px), (max-width: 1035px){
+
+    #proc-sug{
+        height: 250px;
+        width: 490px;
+        margin-bottom: 10px;
+        resize: none;
+    
+    
+    }
+
+}
+
+
+
+/* END OF SUGGESTIONS */
+
 
 #submit {
     display: block;
@@ -372,6 +400,20 @@ h3 {
     padding-bottom: 15px;
 }
 
+.link-suggestion{
+    
+    margin-right: 0px;
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-decoration-line: none;
+    color: black;
+    display: block;
+}
+
+.link-suggestion:hover {
+    padding-bottom: 10px;
+}
 
 #sug-link{
     font-size: 30pt;
@@ -383,13 +425,12 @@ h3 {
     width: 800px;
 }
 
-.par{
-    height: 95px;
+#sug-link:hover {
+    background-color: rgb(106, 141, 168);
 }
 
-#sug-link:hover{
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
-    margin-bottom: 5px;
+.par{
+    height: 95px;
 }
 
 
@@ -419,7 +460,6 @@ h3 {
 
 .recipe-child {
     width: 600px;
-    height: 400px;
     margin-bottom: 20px;
 }
 
@@ -615,11 +655,17 @@ h3 {
 
 /* INDEX */
 
-#meal-of-day{
+.article #meal-suggestion{
     padding-top: 40px;
-    padding-bottom: 10px;
-    text-align: start;
+}
+
+#meal-suggestion{
+    text-align: center;
     margin-left: 18px;
+    margin-right: 18px;
+}
+
+#meal-of-day{
     font-size: 36pt;
 }
 
@@ -628,14 +674,13 @@ h3 {
 }
 
 #meal-description{
-    padding-bottom: 20px;
-    text-align: start;
-    margin-left: 18px;
+    font-size: 14pt;
+
 }
 
 #meal-link{
     color: black;
-
+    text-decoration: none;
 }
 /*
 #meal-img{
@@ -651,23 +696,22 @@ h3 {
     text-align: center;
     margin-top: 20px;
     margin-right: 10%;
-    
     margin-left: 10%;
     font-size: 14pt;
     line-height: 1.6;
+}
 
+#about-us-image {
+    margin-top: 10px;
+    width: 80%;
+    max-width: 500px;
 }
 
 /* END ABOUT US */
 
 /* CONTACT */
 
-#contact-desc{
-        text-align: start;
-        
-        font-size: 14pt;
-        line-height: 1.6;
-}
+
 
 #contact-body{
     margin-left: 36px;
@@ -681,6 +725,15 @@ h3 {
 
 
 }
+
+#contact-desc{
+        text-align: start;
+        
+        font-size: 14pt;
+        line-height: 1.6;
+}
+
+
 
 #contact-form {
     margin-top: 10px;
@@ -700,22 +753,22 @@ h3 {
     background-color: white;
 }
 
+
 #proc{
     height: 250px;
     width:100%;
     margin-bottom: 10px;
     resize: none;
 
-
 }
 
 #submit-button{
-    width: 100px;
     border-color: black;
     border-width: 1px;
-    padding: 5px 15px 5px 15px;
-    font-weight: 500;
+    padding: 5px 25px 5px 25px;
+    font-size: 12pt;
 
 }
+
 
 /* END CONTACT */

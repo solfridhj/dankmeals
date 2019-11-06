@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <title>DankMeals</title>
+        <link href="../../style.css" rel="stylesheet">
+        <script src="../../scripts/navbar.js"></script>
+    </head>
+    <body>
+
+        <!-- Importing navbar html-->
+        <script>
+                recipe()
+        </script>
+
+        <!--PAGE BODY => PAGE SPECIFIC CONTENT GOES HERE-->
+        <div class="article" style="height: 100%;">
+
+            <div class="recipe-container">
+
+                <div id="headline-small-screen">Brødsuppe</div>
+                
+                <div class="recipe-child" id="ingredients-box">
+                    <div id="ing-headline">INGREDIENTS</div>
+                    <br>
+                    <div id="portion-number">
+                    <input type="text" id="portions" size="2"  value="4" maxlength="2"  oninput="calc_ingredients()"> portions </div>
+
+                    <div class="ingredients">
+
+                    
+                        <div class="ing"><div class="ing-amount" id="ing1">120</div> g old bread, chopped in pieces</div>
+                        <hr class="ing-line">
+
+                        <div class="ing"><div class="ing-amount" id="ing2">2</div> tablespoon butter </div>
+                        <hr class="ing-line">
+
+                        <div class="ing"><div class="ing-amount" id="ing3">1</div> chopped onion</div>
+                        <hr class="ing-line">
+
+                        <div class="ing"><div class="ing-amount" id="ing4">8</div>dl chicken bouillon </div>
+                        <hr class="ing-line">
+
+                        <div class="ing"><div class="ing-amount" id="ing5">1</div>boat finely chopped garlic</div>
+                        <hr class="ing-line">
+
+                        <div class="ing"><div class="ing-amount" id="ing5">400</div>g frozen pees</div>
+                        <hr class="ing-line">
+
+                        <div class="ing"><div class="ing-amount" id="ing5">0.5</div> teaspoon salt</div>
+                        <hr class="ing-line">
+
+                        <div class="ing"><div class="ing-amount" id="ing5"2>0.5</div>teaspoon pepper</div>
+
+
+                    </div>
+
+                </div>
+
+
+                <div class="recipe-child">
+
+                <div id="recipe-name">Brødsuppe</div>
+
+                <div id="recipe-instructions">
+                    <ol>
+                        <li>
+                            Ta ut erter fra fryseren og legg på kjøkkenbenken.
+
+                        </li>
+
+                        <li>
+                            Grovhakk løk. Skjær av skorpen på brødskivene og kutt brødet deretter i terninger.
+                        </li>
+                        <li>
+                            Smelt smør i en kjele. Fres løk i kjelen til den er myk.
+                        </li>
+                        <li>
+                            Hell i ¾ buljongen i kjelen, kok opp. La det koke i 3-4 minutter, til løken er mør. Ha i erter og brødterninger, og la alt koke opp.
+                        </li>
+                        <li>
+                            Kjør suppen jevn med en stavmikser eller i en blender.
+                        </li>
+                        <li>
+                            Spe eventuelt med mer kraft om suppen er tykk, og kok opp. Smak til med salt og pepper.
+                        </li>
+    
+
+                        <em>Tip:</em> Also serve with topped bread cruttongs and a dash of olive oil.
+                        
+                    </ol>
+
+                </div>
+
+                <img id="recipe-image" src="../../img/brodsuppe.jpg" width="600px">
+
+                </div>
+            </div>  
+        </div>  
+
+        <!--END OF PAGE SPECIFIC CONTENT-->
+
+        <footer>
+            This is a footer
+            <!--
+            <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/"         title="Flaticon">www.flaticon.com</a></div>
+            -->
+        </footer>
+
+        <script type="text/javascript" src="../../scripts/calc_ingredients.js"></script>
+        
+    </body>
+</html>

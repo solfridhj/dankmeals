@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <title>DankMeals</title>
+        <link href="../../style.css" rel="stylesheet">
+        <script src="../../scripts/navbar.js"></script>
+    </head>
+    <body>
+
+        <!-- Importing navbar html-->
+        <script>
+                recipe()
+        </script>
+
+        <!--PAGE BODY => PAGE SPECIFIC CONTENT GOES HERE-->
+        <div class="article" style="height: 100%;">
+
+            <div class="recipe-container">
+
+                <div id="headline-small-screen">Brownie</div>
+                
+                <div class="recipe-child" id="ingredients-box">
+                    <div id="ing-headline">INGREDIENTS</div>
+                    <br>
+                    <div id="portion-number">
+                    <input type="text" id="portions" size="2"  value="4" maxlength="2"  oninput="calc_ingredients()"> portions </div>
+
+                    <div class="ingredients">
+
+                    
+                        <div class="ing"><div class="ing-amount" id="ing1">500</div> g butter</div>
+                        <hr class="ing-line">
+
+                        <div class="ing"><div class="ing-amount" id="ing2">8</div> eggs </div>
+                        <hr class="ing-line">
+
+                        <div class="ing"><div class="ing-amount" id="ing3">700</div> g sugar</div>
+                        <hr class="ing-line">
+
+                        <div class="ing"><div class="ing-amount" id="ing4">200</div> g glutenfree cake mix</div>
+                        <hr class="ing-line">
+
+                        <div class="ing"><div class="ing-amount" id="ing5">100</div>g cocoa powder</div>
+                        <hr class="ing-line">
+
+                        <div class="ing"><div class="ing-amount" id="ing5">4</div>teaspoons of vanilla sugar</div>
+                       
+
+                    </div>
+
+                </div>
+
+
+                <div class="recipe-child">
+
+                <div id="recipe-name">Brownie</div>
+
+                <div id="recipe-instructions">
+                    <ol>
+                        <li>
+                            Preheat ovn to 175 °C.
+
+                        </li>
+
+                        <li>
+                            Melt the butter in a pot, and cool down.
+                        </li>
+                        <li>
+                            Whip eggs until eggdosis.
+                        </li>
+                        <li>
+                            Mix cake mix, cocoa and vanilla sugar together. Mix slowly.
+                        </li>
+                        <li>
+                            Put in the butter and vend slowly. Transfer the mixture over to the roasting pan. 
+                        </li>
+                        <li>
+                            Bake the brownie in the middle of the ovn for 4o minutes. 
+                        </li>
+                      
+                        <em>Tip:</em> This brownie can be freexed for later use. 
+                        
+                    </ol>
+
+                </div>
+
+                <img id="recipe-image" src="../../img/brownie.jpg" width="600px">
+
+                </div>
+            </div>  
+        </div>  
+
+        <!--END OF PAGE SPECIFIC CONTENT-->
+
+        <footer>
+            This is a footer
+            <!--
+            <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/"         title="Flaticon">www.flaticon.com</a></div>
+            -->
+        </footer>
+
+        <script type="text/javascript" src="../../scripts/calc_ingredients.js"></script>
+        
+    </body>
+</html>
