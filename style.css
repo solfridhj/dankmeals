@@ -302,10 +302,6 @@ html, body{
     
 }
 
-#add-ing{
-    margin-bottom: 20px;
-}
-
 #submit {
     display: block;
     margin-left: auto;
@@ -652,7 +648,7 @@ h3 {
 /* ABOUT US */
 
 #about{
-    text-align: start;
+    text-align: center;
     margin-top: 20px;
     margin-right: 10%;
     
