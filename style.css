@@ -576,3 +576,35 @@ footer {
     box-shadow: 0 9px #999;
 
 }
+
+/* INDEX */
+
+#meal-of-day{
+    padding-top: 40px;
+    padding-bottom: 10px;
+    text-align: start;
+    margin-left: 18px;
+    font-size: 36pt;
+}
+
+#meal-name{
+    display: inline;
+}
+
+#meal-description{
+    padding-bottom: 20px;
+    text-align: start;
+    margin-left: 18px;
+}
+
+#meal-link{
+    color: black;
+    
+}
+/*
+#meal-img{
+    position: relative;
+    right: 18px;
+}*/
+
+/* END INDEX */
