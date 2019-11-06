@@ -700,4 +700,22 @@ h3 {
     background-color: white;
 }
 
+#proc{
+    height: 250px;
+    width:100%;
+    margin-bottom: 10px;
+    resize: none;
+
+
+}
+
+#submit-button{
+    width: 100px;
+    border-color: black;
+    border-width: 1px;
+    padding: 5px 15px 5px 15px;
+    font-weight: 500;
+
+}
+
 /* END CONTACT */
