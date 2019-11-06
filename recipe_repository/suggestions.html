@@ -30,11 +30,11 @@
                 <form action="submitted.html" method="POST">
                     <div class="suggestion-form-child" id="1">
                     <label for="name">
-                        <input type="text" name="name" class="sug" placeholder="Your Name" required>
+                        <input type="text" name="name" class="sug" placeholder="Your Name" pattern="^^[a-zA-ZæøåÆØÅ\s\-]*$" autofocus required>
                     </label>
 
                     <label for="name-of-meal">
-                            <input type="text" name="name-of-meal" class="sug" placeholder="Name of Meal" required>
+                            <input type="text" name="name-of-meal" class="sug" placeholder="Name of Meal" pattern="^[a-zA-Z_ ]*$" required>
                     </label>
                     
                     </div>
@@ -43,11 +43,11 @@
                     
 
                     <label for="email">
-                            <input type="text" name="email" class="sug" placeholder="E-mail adress" required>
+                            <input type="text" name="email" class="sug" placeholder="E-mail adress" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Please enter a valid e-mail adress" required>
                     </label>
                     
                     <label for="nr-servings">
-                            <input type="text" name="nr-servings" class="sug" placeholder="Number of servings" min="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" title="Only enter numbers" required>
+                            <input type="text" name="nr-servings" class="sug" placeholder="Number of servings" min="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" required>
                     </label>
                     </div>
                     <br>
@@ -81,6 +81,7 @@
                             <input type="text" name="ing6" class="sug" placeholder="Ingredient 6"> 
                     </label>
                     </div>
+                    
                     <br>
                     <label for="procedure" style="height:200px; padding-top: 30px;">
                             <textarea name="procedure" id="proc" cols="90" row="100" wrap='soft' style="height:200px;" required>
@@ -89,7 +90,7 @@
                     <br>
                     <br>
                     <label for="submit-button">
-                        <input type="submit" id="submit-button submit" value="Submitt suggestion">
+                        <input type="submit" id="submit-button submit" value="Submit suggestion">
                     </label>
                     
                 </form>

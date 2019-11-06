@@ -650,7 +650,7 @@ footer {
 
 #meal-link{
     color: black;
-    
+
 }
 /*
 #meal-img{
@@ -659,3 +659,60 @@ footer {
 }*/
 
 /* END INDEX */
+
+/* ABOUT US */
+
+#about{
+    text-align: start;
+    margin-top: 20px;
+    margin-right: 10%;
+    
+    margin-left: 10%;
+    font-size: 14pt;
+    line-height: 1.6;
+
+}
+
+/* END ABOUT US */
+
+/* CONTACT */
+
+#contact-desc{
+        text-align: start;
+        
+        font-size: 14pt;
+        line-height: 1.6;
+}
+
+#contact-body{
+    margin-left: 36px;
+    margin-right: 36px;
+}
+
+#contact-subtitle{
+    font-size: 20pt;
+    margin-top: 40px;
+    text-align: start;
+
+
+}
+
+#contact-form {
+    margin-top: 10px;
+    text-align: start;
+
+}
+/*
+.contact-form-child {
+    width: 100%;
+}
+*/
+.con {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 23px;
+    width: 240px;
+    background-color: white;
+}
+
+/* END CONTACT */
