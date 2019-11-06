@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <title>DankMeals</title>
+        <link href="../../style.css" rel="stylesheet">
+        <script src="../../scripts/navbar.js"></script>
+    </head>
+    <body>
+
+        <!-- Importing navbar html-->
+        <script>
+                recipe()
+        </script>
+
+        <!--PAGE BODY => PAGE SPECIFIC CONTENT GOES HERE-->
+        <div class="article" style="height: 100%;">
+
+            <div class="recipe-container">
+
+                <div id="headline-small-screen">Foccacia</div>
+                
+                <div class="recipe-child" id="ingredients-box">
+                    <div id="ing-headline">INGREDIENTS</div>
+                    <br>
+                    <div id="portion-number">
+                    <input type="text" id="portions" size="2" height="30" value="4" maxlength="2" max="20" oninput="calc_ingredients()"> portions </div>
+
+                    <div class="ingredients">
+
+                    
+                        <div class="ing"><div class="ing-amount" id="ing1">7</div> dl grovrevet søtpotet</div>
+                        <hr class="ing-line">
+
+                        <div class="ing"><div class="ing-amount" id="ing2">4</div> stk egg</div>
+                        <hr class="ing-line">
+
+                        <div class="ing"><div class="ing-amount" id="ing3">2</div> ss vårløk</div>
+                        <hr class="ing-line">
+
+                        <div class="ing"><div class="ing-amount" id="ing4">3</div> ss hvetemel</div>
+                        <hr class="ing-line">
+
+                        <div class="ing"><div class="ing-amount" id="ing5">1</div>båt finhakket hvitløk</div>
+                        <hr class="ing-line">
+
+                        <div class="ing"><div class="ing-amount" id="ing5">6</div>ss gresk yoghurt</div>
+                        <hr class="ing-line">
+
+                        <div class="ing"><div class="ing-amount" id="ing5">2</div> ts chiliolje</div>
+                        <hr class="ing-line">
+
+                        <div class="ing"><div class="ing-amount" id="ing5"2>0.5</div> potte frisk koriander</div>
+                        <hr class="ing-line">
+
+                        <div class="ing"><div class="ing-amount" id="ing5"2>65</div> g cashewnøtter (en liten pose)</div>
+
+                        
+
+
+                    </div>
+
+                </div>
+
+
+                <div class="recipe-child">
+
+                <div id="recipe-name">Søtpotetvaffel</div>
+
+                <div id="recipe-instructions">
+                    <ol>
+                        <li>
+                            Riv søtpotetene grovt.
+
+                        </li>
+
+                        <li>
+                            Visp sammen eggene og bland inn revet søtpotet, finhakket hvitløk, finsnittet vårløk, og hvetemel.  Krydre med litt salt og pepper.
+                        </li>
+                        <li>
+                            Stek vafler og avkjøl på rist (eller hold dem varme).
+                        </li>
+                        <li>
+                            Rist cashewnøtter i tørr stekepanne til de blir gylne. Grovhakk nøttene.
+                        </li>
+                        <li>
+                            Topp vaflene med  gresk yoghurt, chiliolje, frisk koriander og hakkede cashewnøtter.
+                        </li>
+
+                        <!--<em>Tip:</em> Also serve with Manchego cheese. -->
+                        
+                    </ol>
+
+                </div>
+
+                <img id="recipe-image" src="../../img/vaffel.jpg" width="600px">
+
+                </div>
+            </div>  
+        </div>  
+
+        <!--END OF PAGE SPECIFIC CONTENT-->
+
+        <footer>
+            This is a footer
+            <!--
+            <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/"         title="Flaticon">www.flaticon.com</a></div>
+            -->
+        </footer>
+
+        <script type="text/javascript" src="../../scripts/calc_ingredients.js"></script>
+        
+    </body>
+</html>
