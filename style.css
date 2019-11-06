@@ -627,3 +627,92 @@ footer {
     box-shadow: 0 9px #999;
 
 }
+
+/* INDEX */
+
+#meal-of-day{
+    padding-top: 40px;
+    padding-bottom: 10px;
+    text-align: start;
+    margin-left: 18px;
+    font-size: 36pt;
+}
+
+#meal-name{
+    display: inline;
+}
+
+#meal-description{
+    padding-bottom: 20px;
+    text-align: start;
+    margin-left: 18px;
+}
+
+#meal-link{
+    color: black;
+
+}
+/*
+#meal-img{
+    position: relative;
+    right: 18px;
+}*/
+
+/* END INDEX */
+
+/* ABOUT US */
+
+#about{
+    text-align: start;
+    margin-top: 20px;
+    margin-right: 10%;
+    
+    margin-left: 10%;
+    font-size: 14pt;
+    line-height: 1.6;
+
+}
+
+/* END ABOUT US */
+
+/* CONTACT */
+
+#contact-desc{
+        text-align: start;
+        
+        font-size: 14pt;
+        line-height: 1.6;
+}
+
+#contact-body{
+    margin-left: 36px;
+    margin-right: 36px;
+}
+
+#contact-subtitle{
+    font-size: 20pt;
+    margin-top: 40px;
+    text-align: start;
+
+
+}
+
+#contact-form {
+    margin-top: 10px;
+    text-align: start;
+
+}
+/*
+.contact-form-child {
+    width: 100%;
+}
+*/
+.con {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 23px;
+    width: 240px;
+    background-color: white;
+}
+
+/* END CONTACT */
