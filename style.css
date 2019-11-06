@@ -163,21 +163,16 @@ html, body{
 
 /*RESPONSIVE */
 
-@media screen and (min-device-width: 1130px), (min-width: 1130px){
+
+@media screen and (min-device-width: 1035px), (min-width: 1035px){
     #small-header{
         display: none;
     }
 }
 
-@media screen and (max-device-width: 1130px), (max-width: 1130px){
-    /*Medium sized screen. Navbar still same, but no search*/ 
-    #header-nav {
-        width: 100%;
-    }
 
-    #search-bar{
-        display: none;
-    }
+@media screen and (max-device-width: 1035px), (max-width: 1035px){
+   
 
     .article{
         width: 100%;
@@ -188,7 +183,7 @@ html, body{
     }
 }
 
-@media screen and (max-device-width: 960px), (max-width: 960px){
+@media screen and (max-device-width: 1035px), (max-width: 1035px){
     /*Setting css for small screen header*/
     #header {
         display: none;
@@ -271,6 +266,11 @@ html, body{
         bottom: 100px;
         background-color: #9FBACE;
     }
+
+    #small-search-bar {
+        position: relative;
+        bottom: 5px;
+    }
 }
 
 /*Suggestions.html*/
@@ -342,14 +342,23 @@ h3 {
 /*Hover*/
 .hover-shadow:hover{
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+
 }
 /*Image behavior*/
 .img {
     position:relative;
-    width:100%;
-    height: 123px;
+    width: 100%
+
 }
 
+.img-container {
+    height: 125px;
+    width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+
+    overflow: hidden;
+}
 
 .img-land {
     height: 150px;
@@ -361,6 +370,10 @@ h3 {
     height: 300px;
     width: 220px;
     min-width: 220px;
+}
+
+.landing:hover {
+    padding-bottom: 15px;
 }
 
 
@@ -380,6 +393,7 @@ h3 {
 
 #sug-link:hover{
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+    margin-bottom: 5px;
 }
 
 
@@ -390,6 +404,7 @@ h3 {
         width: 100%;
         margin-bottom: 60px;
     }
+
 }
 
 
@@ -437,6 +452,10 @@ h3 {
   
 }
 
+#headline-small-screen {
+    display: none;
+}
+
 #portion-number {
     margin-bottom: 15px;
     text-align: start;
@@ -467,16 +486,26 @@ h3 {
 }
 
 @media screen and (max-device-width: 960px), (max-width: 960px){
-    #ingredients-box {
-        width: 100%;
-        height: 200px;
-    }
 
     .ing {
         padding: 2px;
+        width: 80%;
     }
 
     .ing-line {
+        display: none;
+    }
+
+    .recipe-container {
+        padding-top: 5px;
+    }
+
+    #headline-small-screen {
+        display: block;
+        font-size: 36pt;
+    }
+
+    #recipe-name{
         display: none;
     }
 
@@ -485,6 +514,28 @@ h3 {
         text-align: start;
         position: relative;
         left: 25px;
+        width: 80%;
+    }
+
+    #recipe-image {
+        width: 80%;
+    }
+
+    #recipe-name {
+        width: 80%;
+    }
+
+    #ingredients-box {
+        width: 100%;
+        height: 100%;
+        padding-bottom: 10px;
+        background-color: #D9D9D9
+    }
+
+    #ing-headline {
+        text-align: start;
+        position: relative;
+        left: 30px;
     }
 
 }
