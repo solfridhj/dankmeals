@@ -134,25 +134,7 @@ html, body{
     text-align: left;
     /*height: 100%; Remove this so that the article sections covers all the recipe items*/
 }
-#meal_generated{
-    height: 25px;
-    display: inline-block;
-    padding: 15px 5px;
-    font-size: 24px;
-    margin-left: auto;
-    margin-right: auto;
-   /* cursor: pointer;*/
-    text-align: center;
-    text-decoration: none;
-    outline: none;
-    color: #000;
-    /*background-color: #5b44dd; /*rgb(31, 30, 102);*/
-    border: none;
-    border-radius: 15px; /*Larger border-radius makes the block rounder*/
-   /* box-shadow: 0 9px #999;*/
 
-
-}
 #headline {
     font-size: 36pt;
     text-align: center;
@@ -299,8 +281,13 @@ html, body{
     
 }
 
+.textArea {
+    padding-bottom: 20px;
+}
+
 .textArea #proc-sug{
     text-align: start;
+    
 }
 
 #proc-sug{
@@ -626,6 +613,11 @@ h3 {
     margin-bottom: 20px;
 }
 
+#output-field {
+    margin-right: auto;
+    margin-left: auto;
+}
+
 #carbs {
     height: 25px;
     display: block;
@@ -681,6 +673,26 @@ h3 {
     border: none;
     border-radius: 15px; /*Larger border-radius makes the block rounder*/
     box-shadow: 0 9px #999;
+
+}
+
+#meal_generated{
+    height: 25px;
+    display: block;
+    padding: 15px 5px;
+    font-size: 24px;
+    margin-left: auto;
+    margin-right: auto;
+   /* cursor: pointer;*/
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #000;
+    /*background-color: #5b44dd; /*rgb(31, 30, 102);*/
+    border: none;
+    border-radius: 15px; /*Larger border-radius makes the block rounder*/
+   /* box-shadow: 0 9px #999;*/
+
 
 }
 
