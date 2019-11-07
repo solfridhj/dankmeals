@@ -4,7 +4,7 @@ html, body{
     background-color: #D9D9D9;
     font-weight: 300;
     height: 100%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Helvetica, sans-serif;
     min-height: 100%;
 }
 
@@ -13,13 +13,11 @@ html, body{
     width: 100%;
     background-color:#9FBACE;
     font-size: 20pt;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-
 }
 
 #header-nav {
     height: 50px;
-    width: 1130px;
+    width: 980px;
     margin-top: 0;
     margin-left: auto;
     margin-right: auto;
@@ -93,7 +91,7 @@ html, body{
 
 .link:hover{
     background-color:  #7395AE;
-    padding-bottom: 7px;
+    padding-bottom: 9px;
 }
 
 .dropdown-link:hover{
@@ -141,6 +139,8 @@ html, body{
     display: inline-block;
     padding: 15px 5px;
     font-size: 24px;
+    margin-left: auto;
+    margin-right: auto;
    /* cursor: pointer;*/
     text-align: center;
     text-decoration: none;
@@ -314,6 +314,7 @@ html, body{
     display: flex;
     flex-flow: row wrap;
     margin: 20px 0;
+    margin-bottom: 0;
     align-content: center;
     justify-content: center;
     
@@ -550,6 +551,8 @@ h3 {
 /*END OF RECIPE LAYOUT SECTION*/
 
 
+/*TRY YOU LUCK */
+
 /*Button behavior*/
 .button {
     display: inline-block;
@@ -576,11 +579,28 @@ h3 {
     transform: translateY(4px);
 }
 
+.try-you-luck-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.try-you-luck-child {
+    width: 360px;
+    margin-bottom: 20px;
+}
+
 #carbs {
     height: 25px;
-    display: inline-block;
+    display: block;
     padding: 15px 5px;
     font-size: 24px;
+    font-weight: 100;
+    margin-left: auto;
+    margin-right: auto;
    /* cursor: pointer;*/
     text-align: center;
     text-decoration: none;
@@ -594,9 +614,12 @@ h3 {
 }
 #veg {
     height: 25px;
-    display: inline-block;
     padding: 15px 5px;
     font-size: 24px;
+    font-weight: 100;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
    /* cursor: pointer;*/
     text-align: center;
     text-decoration: none;
@@ -610,9 +633,12 @@ h3 {
 }
 #meat {
     height: 25px;
-    display: inline-block;
     padding: 15px 5px;
     font-size: 24px;
+    font-weight: 100;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
    /* cursor: pointer;*/
     text-align: center;
     text-decoration: none;
@@ -624,6 +650,8 @@ h3 {
     box-shadow: 0 9px #999;
 
 }
+
+/*END OF TRY YOU LUCK*/
 
 /* INDEX */
 
