@@ -86,7 +86,6 @@ html, body{
     text-decoration-line: none;
     color: black;
     display: block;
-    
 }
 
 .link:hover{
@@ -312,11 +311,6 @@ html, body{
 
 }
 
-
-
-/* END OF SUGGESTIONS */
-
-
 #submit {
     display: block;
     margin-left: auto;
@@ -324,7 +318,11 @@ html, body{
     
 }
 
-/*Recipe subpages*/
+/* END OF SUGGESTIONS */
+
+
+/*RECIPE SUBPAGES */
+
 .flex-container {
     display: flex;
     flex-flow: row wrap;
@@ -387,6 +385,9 @@ h3 {
 .landing:hover {
     padding-bottom: 15px;
 }
+
+/*END OF RECIPE SUBPAGES*/
+
 
 .link-suggestion{
     
@@ -578,6 +579,7 @@ h3 {
     display: inline-block;
     padding: 25px 40px;
     margin-left: 5px;
+    margin-top: 30px;
     font-size: 35px; /*24px;*/
     cursor: pointer;
     text-align: center;
