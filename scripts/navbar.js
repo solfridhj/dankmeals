@@ -1,4 +1,6 @@
 
+// VALID HTML
+
 // Function to update for files within recipe directory
 function recipe(){
     document.write(`
@@ -10,7 +12,7 @@ function recipe(){
                     <div id="header-nav">
                     <ul class="navbar">
                         <li class="navbar-page">
-                            <div id="logo">
+                            <div class="logo">
                                 <a class="link" href="../../index.html">DankMeals</a>
                             </div>
                         </li>
@@ -39,7 +41,7 @@ function recipe(){
                         </li>
         
                         <li class="navbar-page">
-                            <a class="link"href="../../about.html">About</a>
+                            <a class="link" href="../../about.html">About</a>
                         </li>
         
                         <li class="navbar-page">
@@ -65,13 +67,13 @@ function recipe(){
         
                 <!-- Header for small screens -->
                 <div id="small-header">
-                    <div id="logo">
-                        <a id="logo"class="link" href="../../index.html">DankMeals</a>
+                    <div class="logo">
+                        <a id="small-link" href="../../index.html">DankMeals</a>
                     </div>
         
                     <div id="small-on-hover">
         
-                            <img id="to-hov" src="../../menu.png" width="40px" height="40px">
+                            <img id="to-hov" src="../../menu.png" width="40" height="40" alt="Dropdown">
         
                         <ul id="small-dropdown">
         
@@ -79,15 +81,15 @@ function recipe(){
                                 <a href="../recipe.html">Recipes</a>
                             </li>
         
-                            <li id="under">
+                            <li class="under">
                                 <a href="../everyday.html">Everyday</a>
                             </li>
         
-                            <li id="under">
+                            <li class="under">
                                 <a href="../party.html">Party</a>
                             </li>
         
-                            <li id="under">
+                            <li class="under">
                                 <a href="../relax.html">Relax</a>
                             </li>
         
@@ -138,7 +140,7 @@ function recipe_rep(){
                 <div id="header-nav">
                 <ul class="navbar">
                     <li class="navbar-page">
-                        <div id="logo">
+                        <div class="logo">
                             <a class="link" href="../index.html">DankMeals</a>
                         </div>
                     </li>
@@ -167,7 +169,7 @@ function recipe_rep(){
                     </li>
     
                     <li class="navbar-page">
-                        <a class="link"href="../about.html">About</a>
+                        <a class="link" href="../about.html">About</a>
                     </li>
     
                     <li class="navbar-page">
@@ -193,13 +195,13 @@ function recipe_rep(){
     
             <!-- Header for small screens -->
             <div id="small-header">
-                <div id="logo">
-                    <a id="logo"class="link" href="../index.html">DankMeals</a>
+                <div class="logo">
+                    <a id="small-link" href="../index.html">DankMeals</a>
                 </div>
     
                 <div id="small-on-hover">
     
-                        <img id="to-hov" src="../menu.png" width="40px" height="40px">
+                        <img id="to-hov" src="../menu.png" width="40" height="40" alt="Dropdown">
     
                     <ul id="small-dropdown">
     
@@ -207,15 +209,15 @@ function recipe_rep(){
                             <a href="recipe.html">Recipes</a>
                         </li>
     
-                        <li id="under">
+                        <li class="under">
                             <a href="everyday.html">Everyday</a>
                         </li>
     
-                        <li id="under">
+                        <li class="under">
                             <a href="party.html">Party</a>
                         </li>
     
-                        <li id="under">
+                        <li class="under">
                             <a href="relax.html">Relax</a>
                         </li>
     
@@ -253,6 +255,7 @@ function recipe_rep(){
 }
 
 // Function to update for pages not in directory (rel. index file)
+
 function no_dir() {
     document.write(`
 
@@ -263,7 +266,7 @@ function no_dir() {
         <div id="header-nav">
         <ul class="navbar">
             <li class="navbar-page">
-                <div id="logo">
+                <div class="logo">
                     <a class="link" href="index.html">DankMeals</a>
                 </div>
             </li>
@@ -292,7 +295,7 @@ function no_dir() {
             </li>
 
             <li class="navbar-page">
-                <a class="link"href="about.html">About</a>
+                <a class="link" href="about.html">About</a>
             </li>
 
             <li class="navbar-page">
@@ -318,13 +321,13 @@ function no_dir() {
 
     <!-- Header for small screens -->
     <div id="small-header">
-        <div id="logo">
-            <a id="logo"class="link" href="index.html">DankMeals</a>
+        <div class="logo">
+            <a id="small-link" href="index.html">DankMeals</a>
         </div>
 
         <div id="small-on-hover">
 
-                <img id="to-hov" src="menu.png" width="40px" height="40px">
+                <img id="to-hov" src="menu.png" width="40" height="40" alt="Dropdown">
 
             <ul id="small-dropdown">
 
@@ -332,15 +335,15 @@ function no_dir() {
                     <a href="recipe_repository/recipe.html">Recipes</a>
                 </li>
 
-                <li id="under">
+                <li class="under">
                     <a href="recipe_repository/everyday.html">Everyday</a>
                 </li>
 
-                <li id="under">
+                <li class="under">
                     <a href="recipe_repository/party.html">Party</a>
                 </li>
 
-                <li id="under">
+                <li class="under">
                     <a href="recipe_repository/relax.html">Relax</a>
                 </li>
 
