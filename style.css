@@ -104,10 +104,27 @@ html, body{
     background-color: white;
 }
 
-#logo {
+.logo {
     color: white;
     background-color:  #8B99A3;
     height: 50px;
+    width: fit-content;
+}
+
+#small-link {
+    width: 200px;
+    height: 40px;
+    color: white;
+    background-color:  #8B99A3;
+    margin-right: 0px;
+    
+    padding-top: 2px;
+    padding-bottom: 8px;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-decoration-line: none;
+    display: block;
+    font-size: 30pt;
 }
 
 
@@ -145,14 +162,14 @@ html, body{
 /*RESPONSIVE */
 
 
-@media screen and (min-device-width: 1035px), (min-width: 1035px){
+@media screen and (min-width: 1035px){
     #small-header{
         display: none;
     }
 }
 
 
-@media screen and (max-device-width: 1035px), (max-width: 1035px){
+@media screen and (max-width: 1035px){
    
 
     .article{
@@ -164,7 +181,7 @@ html, body{
     }
 }
 
-@media screen and (max-device-width: 1035px), (max-width: 1035px){
+@media screen and (max-width: 1035px){
     /*Setting css for small screen header*/
     #header {
         display: none;
@@ -228,7 +245,10 @@ html, body{
         border-bottom: 0.4px solid rgb(197, 197, 197);
     }
 
-    
+    .under a{
+        font-size: 17pt !important;
+        color:rgb(255, 255, 255) !important; 
+    }
 
     #small-dropdown a {
         color:rgb(0, 0, 0); 
@@ -238,10 +258,7 @@ html, body{
         font-size: 20pt
     }
 
-    #under a{
-        font-size: 17pt;
-        color:rgb(255, 255, 255); 
-    }
+    
 
     #to-hov:hover {
         bottom: 100px;
@@ -298,7 +315,7 @@ html, body{
 
 }
 
-@media screen and (max-device-width: 1035px), (max-width: 1035px){
+@media screen and (max-width: 1035px){
 
     #proc-sug{
         height: 250px;
@@ -424,7 +441,7 @@ h3 {
 
 
 
-@media screen and (max-device-width: 960px), (max-width: 960px){
+@media screen and (max-width: 960px){
     #sug-link {
         font-size: 20pt;
         width: 100%;
@@ -511,7 +528,7 @@ h3 {
     margin: 5px;
 }
 
-@media screen and (max-device-width: 960px), (max-width: 960px){
+@media screen and (max-width: 960px){
 
     .ing {
         position: relative;
@@ -574,6 +591,14 @@ h3 {
 
 /*TRY YOU LUCK */
 
+#try-your-luck-text{
+    text-align: start;
+    font-size: 14pt;
+    line-height: 1.6;
+    margin-left: 35px;
+
+}
+
 /*Button behavior*/
 .button {
     display: inline-block;
@@ -618,6 +643,7 @@ h3 {
 #output-field {
     margin-right: auto;
     margin-left: auto;
+    
 }
 
 #carbs {
@@ -694,7 +720,8 @@ h3 {
     border: none;
     border-radius: 15px; /*Larger border-radius makes the block rounder*/
    /* box-shadow: 0 9px #999;*/
-
+   font-size: 14pt;
+   line-height: 1.6;
 
 }
 
@@ -729,11 +756,11 @@ h3 {
     color: black;
     text-decoration: none;
 }
-/*
-#meal-img{
-    position: relative;
-    right: 18px;
-}*/
+
+#meal-img {
+    width: 80%;
+}
+
 
 /* END INDEX */
 
