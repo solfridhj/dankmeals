@@ -9,7 +9,7 @@ var tapas = {
     name: "Tapas",
     link: "tapas.html",
     img_source: "tapas.jpg",
-    description: "Try some Spanish inspired tapas. You can include many cheeses, and dips."
+    description: "Tapas is amazingly tasty fingerfood from the Spanish kitchen."
 }
 
 var vaffel = {
