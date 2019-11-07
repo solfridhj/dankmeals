@@ -18,7 +18,9 @@ var vaffel = {
     img_source: "vaffel.jpg",
     description: "Vaffel er kosemat!"
 }
-
+var greeksalad = {
+    
+}
 
 var meals = [focaccia, tapas,vaffel]
 
