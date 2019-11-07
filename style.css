@@ -462,6 +462,7 @@ h3 {
 .recipe-child {
     width: 600px;
     margin-bottom: 20px;
+    padding-right: 10px;
 }
 
 .ingredients {
@@ -525,8 +526,9 @@ h3 {
 @media screen and (max-device-width: 960px), (max-width: 960px){
 
     .ing {
+        position: relative;
         padding: 2px;
-        width: 80%;
+        width: fit-content;
     }
 
     .ing-line {
@@ -540,6 +542,8 @@ h3 {
     #headline-small-screen {
         display: block;
         font-size: 36pt;
+        margin-top: 15px;
+        margin-bottom: 15px;
     }
 
     #recipe-name{
@@ -573,6 +577,7 @@ h3 {
         text-align: start;
         position: relative;
         left: 30px;
+        width: fit-content;
     }
 
 }
