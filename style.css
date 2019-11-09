@@ -365,7 +365,7 @@ h3 {
     background-color: white;
     text-decoration: none;
     color: black;
-    height: 220px;
+    height: 213px;
     width: 220px;
     min-width: 220px;
 }
@@ -378,23 +378,35 @@ h3 {
 /*Image behavior*/
 .img {
     position:relative;
-    width: 100%
-
+    width: 100%;
 }
 
 .img-container {
     height: 125px;
-    width: 220px;
-    margin-left: auto;
-    margin-right: auto;
+    width: auto;
+    display: flex;
+    overflow-x: hidden;
+}
 
-    overflow: hidden;
+.flex-image {
+    width: 100%;
+    display: flex;
+    overflow-x: hidden;
 }
 
 .img-land {
     height: 150px;
     top: 0px;
     position: relative;
+    width: auto;
+}
+
+.img-rec {
+    height: 125px;
+    top: 0px;
+    position: relative;
+    width: auto;
+    
 }
 
 .landing {
