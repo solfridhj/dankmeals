@@ -37,20 +37,43 @@
             </header>
             <p>
                 Two of our groupmembers dropped out of the course near the end of the project, so 
-                many changes in work divisions were made (they did unfortunately not complete any of their original tasks). Due to time constraints, some changes to the design/functionality
+                many changes in work divisions were made (they unfortunately did not complete any of their original tasks). Due to time constraints, some changes to the design/functionality
                 was made. We did not include mockups for smaller screens in the P2 documents, so these design choices were made while creating the webpage.  
             </p>
 
             <p>
-                <strong>Changes to all html files:</strong> The font was changed from Rubicon to Helvetica, as we felt this gave a more modern look.
+                <strong>Changes to all html files:</strong> The font was changed from Rubicon to Helvetica, as we felt this gave a more modern look. 
+                Additionally, text alignment was changed from left to centered on all pages (except for contact.html) as we agreed this was a better look for the site.
             </p>
 
             <p>
-                <strong>Changes to index.html:</strong> Changed from Meal of the Day to Suggested Meal as headline (explained in meal_of_day.js change section)
+                <strong>Changes to index.html:</strong> Changed from Meal of the Day to Suggested Meal as headline (explained in meal_of_day.js change section).
+                The image of the suggested meal was changed from a specific size of 475x300px to be 80% of body width so that it would look better on smaller screens. 
+                The internal link to the recipe's page was changed from only being on the title of the meal to include the description of the meal as well as the image, 
+                making it even easier to navigate to the recipe page.
+                
             </p>
 
             <p>
-                <strong>Changes to suggestions.html:</strong>
+                <strong>Changes to about.html:</strong> Changed this page to only share some background, some of
+                our goals and market our site as we did not see it necessary to include as much content on this page as initially planned. We also included a picture of ourselves, the dankest developers in town.
+
+            </p>
+
+            <p>
+                <strong>Changes to contact.html:</strong> Included a link to our meal suggestion page. 
+                Kept this page's text alignment to the left when all other pages were changed because it looked better.
+                Changed from giving users a "submitted" alert when pressing the submit button to link to the submitted.html page instead.
+            </p>
+
+            <p>
+                <strong>Changes to suggestions.html and submitted.html:</strong> Changed the ability to add more ingredient fields as this functionality proved too difficult to implement. 
+                Added a maximum of 6 ingredient fields to fill when submitting as this was deemed sufficient in order to suggest recipes. Changed the layout of text and textfields to be centered rather than on the left side of the page. 
+                Included link to submitted.html upon pressing the submit button.
+            </p>
+
+            <p>
+                <strong>Changes to submitted.html:</strong> Added a html page that aknowledges the user's submissions.
             </p>
 
             <p>
@@ -67,8 +90,9 @@
 
             <p>
                     <strong>Changes to meal_of_day.js:</strong> Changed from meal_of_day.js, to generating a random meal and updating homepage.
-                    The original plan became too complicated, and we desided that this random functionallity could give the user more suggestions for
-                    recipes every time they entered page, not just once every day. 
+                    The original plan became too complicated, and we decided that this random functionality could give the user more suggestions for
+                    recipes every time they entered page, not just once every day. This way the function would still fulfill our goal of inspiring students to try new meals. An additional challenge was to make this now random function loop through each and every recipe before resetting the pool of recipes to choose from.
+                    As a result, this functionality was scrapped and the same recipe could now be suggested twice in a row. However, this is a problem we would like to solve and implement correctly as we initially wanted to do.
             </p>
 
             <p>
@@ -248,7 +272,7 @@
                     </tr>
                     <tr>
                             <td>meal_of_day.js</td>
-                            <td>Make a script that loops though all meals and changes every day.</td>
+                            <td>Make a script that loops through all meals and selects one at random.</td>
                             <td>Emil</td>
                             
                     </tr>
