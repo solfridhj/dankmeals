@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!--VALID-->
 <html lang="en">
     <head>
 
@@ -31,11 +31,11 @@
                 <form action="submitted.html" method="POST">
                     <div class="suggestion-form-child" id="1">
                     <label for="name">
-                        <input type="text" name="name" class="sug" placeholder="Your Name" pattern="^^[a-zA-ZæøåÆØÅ\s\-]*$" autofocus required>
+                        <input type="text" id="name" name="name" class="sug" placeholder="Your Name" pattern="^^[a-zA-ZæøåÆØÅ\s\-]*$" autofocus required>
                     </label>
 
                     <label for="name-of-meal">
-                            <input type="text" name="name-of-meal" class="sug" placeholder="Name of Meal" pattern="^[a-zA-Z_ ]*$" required>
+                            <input type="text" id="name-of-meal" name="name-of-meal" class="sug" placeholder="Name of Meal" pattern="^[a-zA-Z_ ]*$" required>
                     </label>
                     
                     </div>
@@ -44,50 +44,50 @@
                     
 
                     <label for="email">
-                            <input type="text" name="email" class="sug" placeholder="E-mail adress" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Please enter a valid e-mail adress" required>
+                            <input type="text" id="email" name="email" class="sug" placeholder="E-mail adress" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Please enter a valid e-mail adress" required>
                     </label>
                     
                     <label for="nr-servings">
-                            <input type="text" name="nr-servings" class="sug" placeholder="Number of servings" min="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" required>
+                            <input type="text" id="nr-servings" name="nr-servings" class="sug" placeholder="Number of servings" oninput="this.value=this.value.replace(/[^0-9]/g,'');" required>
                     </label>
                     </div>
                     <br>
                     <div class="suggestion-form-child" id="1&2">
 
                             <label for="ing1">
-                                    <input type="text" name="ing1" class="sug" placeholder="Ingredient 1" required>
+                                    <input type="text" id="ing1" name="ing1" class="sug" placeholder="Ingredient 1" required>
                             </label>
                             
                             <label for="ing2">
-                                    <input type="text" name="ing2" class="sug" placeholder="Ingredient 2">
+                                    <input type="text" id="ing2" name="ing2" class="sug" placeholder="Ingredient 2">
                             </label>
                     </div>
 
                     <div class="suggestion-form-child" id="3&4">
                             <label for="ing3">
-                                    <input type="text" name="ing3" class="sug" placeholder="Ingredient 3"> 
+                                    <input type="text" id="ing3" name="ing3" class="sug" placeholder="Ingredient 3"> 
                             </label>
 
                             <label for="ing4">
-                                <input type="text" name="ing4" class="sug" placeholder="Ingredient 4"> 
+                                <input type="text" id="ing4" name="ing4" class="sug" placeholder="Ingredient 4"> 
                         </label>
                     </div>
                     
                     <div class="suggestion-form-child" id="5&6">
                         <label for="ing5">
-                                <input type="text" name="ing5" class="sug" placeholder="Ingredient 5"> 
+                                <input type="text" id="ing5" name="ing5" class="sug" placeholder="Ingredient 5"> 
                         </label>
 
                         <label for="ing6">
-                            <input type="text" name="ing6" class="sug" placeholder="Ingredient 6"> 
+                            <input type="text" id="ing6" name="ing6" class="sug" placeholder="Ingredient 6"> 
                     </label>
                     </div>
                     
                     <br>
                     
                     <div class=textArea>
-                        <label for="procedure">
-                            <textarea name="procedure" id="proc-sug" cols="90" row="100" placeholder="Write your insturctions for the recipe here" required></textarea>
+                        <label for="proc-sug">
+                            <textarea name="procedure" id="proc-sug" cols="90" placeholder="Write your instructions for the recipe here" required></textarea>
                         </label>
                         <br>
                         <label for="submit-button">
