@@ -107,7 +107,7 @@ function recipe(){
                                 <form action="../../search.html" method="POST">
                                     
                                     <label for="small-search-bar">
-                                        <input type="search" id="small-search-bar" placeholder="Search for food" required>
+                                        <input type="search" id="small-search-bar" placeholder="Search for food" autocomplete="off" required>
                                     </label>
                                 </form>
                     
@@ -235,7 +235,7 @@ function recipe_rep(){
                     <form action="../search.html" method="POST">
                         
                         <label for="small-search-bar">
-                            <input type="search" id="small-search-bar" placeholder="Search for food" required>
+                            <input type="search" id="small-search-bar" placeholder="Search for food" autocomplete="off" required>
                         </label>
                     </form>
                     
@@ -361,7 +361,7 @@ function no_dir() {
                 <form action="search.html" method="POST">
                     
                     <label for="small-search-bar">
-                        <input type="search" id="small-search-bar" placeholder="Search for food" required>
+                        <input type="search" id="small-search-bar" placeholder="Search for food" autocomplete="off" required>
                     </label>
                 </form>
                     

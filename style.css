@@ -4,7 +4,7 @@ html, body{
     background-color: #D9D9D9;
     font-weight: 300;
     height: 100%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Helvetica, sans-serif;
     min-height: 100%;
 }
 
@@ -13,13 +13,11 @@ html, body{
     width: 100%;
     background-color:#9FBACE;
     font-size: 20pt;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-
 }
 
 #header-nav {
     height: 50px;
-    width: 1130px;
+    width: 980px;
     margin-top: 0;
     margin-left: auto;
     margin-right: auto;
@@ -93,7 +91,7 @@ html, body{
 
 .link:hover{
     background-color:  #7395AE;
-    padding-bottom: 7px;
+    padding-bottom: 9px;
 }
 
 .dropdown-link:hover{
@@ -136,23 +134,7 @@ html, body{
     text-align: left;
     /*height: 100%; Remove this so that the article sections covers all the recipe items*/
 }
-#meal_generated{
-    height: 25px;
-    display: inline-block;
-    padding: 15px 5px;
-    font-size: 24px;
-   /* cursor: pointer;*/
-    text-align: center;
-    text-decoration: none;
-    outline: none;
-    color: #000;
-    /*background-color: #5b44dd; /*rgb(31, 30, 102);*/
-    border: none;
-    border-radius: 15px; /*Larger border-radius makes the block rounder*/
-   /* box-shadow: 0 9px #999;*/
 
-
-}
 #headline {
     font-size: 36pt;
     text-align: center;
@@ -273,19 +255,16 @@ html, body{
     }
 }
 
-/*Suggestions.html*/
+/* SUGGESTIONS */
 
 
 #suggestion-form {
-    margin-left: 0;
-    margin-right: 0;
-    text-align: center;
-    display: inline;
-
+    width: 100%;
 }
 
 .suggestion-form-child {
     width: 100%;
+    text-align: center;
 }
 
 #ingredients {
@@ -302,6 +281,42 @@ html, body{
     
 }
 
+.textArea {
+    padding-bottom: 20px;
+}
+
+.textArea #proc-sug{
+    text-align: start;
+    
+}
+
+#proc-sug{
+    height: 250px;
+    width: 550px;
+    margin-bottom: 10px;
+    resize: none;
+
+
+}
+
+@media screen and (max-device-width: 1035px), (max-width: 1035px){
+
+    #proc-sug{
+        height: 250px;
+        width: 490px;
+        margin-bottom: 10px;
+        resize: none;
+    
+    
+    }
+
+}
+
+
+
+/* END OF SUGGESTIONS */
+
+
 #submit {
     display: block;
     margin-left: auto;
@@ -314,6 +329,7 @@ html, body{
     display: flex;
     flex-flow: row wrap;
     margin: 20px 0;
+    margin-bottom: 0;
     align-content: center;
     justify-content: center;
     
@@ -433,6 +449,7 @@ h3 {
 .recipe-child {
     width: 600px;
     margin-bottom: 20px;
+    padding-right: 10px;
 }
 
 .ingredients {
@@ -496,8 +513,9 @@ h3 {
 @media screen and (max-device-width: 960px), (max-width: 960px){
 
     .ing {
+        position: relative;
         padding: 2px;
-        width: 80%;
+        width: fit-content;
     }
 
     .ing-line {
@@ -511,6 +529,8 @@ h3 {
     #headline-small-screen {
         display: block;
         font-size: 36pt;
+        margin-top: 15px;
+        margin-bottom: 15px;
     }
 
     #recipe-name{
@@ -544,11 +564,14 @@ h3 {
         text-align: start;
         position: relative;
         left: 30px;
+        width: fit-content;
     }
 
 }
 /*END OF RECIPE LAYOUT SECTION*/
 
+
+/*TRY YOU LUCK */
 
 /*Button behavior*/
 .button {
@@ -576,11 +599,33 @@ h3 {
     transform: translateY(4px);
 }
 
+.try-you-luck-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.try-you-luck-child {
+    width: 360px;
+    margin-bottom: 20px;
+}
+
+#output-field {
+    margin-right: auto;
+    margin-left: auto;
+}
+
 #carbs {
     height: 25px;
-    display: inline-block;
+    display: block;
     padding: 15px 5px;
     font-size: 24px;
+    font-weight: 100;
+    margin-left: auto;
+    margin-right: auto;
    /* cursor: pointer;*/
     text-align: center;
     text-decoration: none;
@@ -594,9 +639,12 @@ h3 {
 }
 #veg {
     height: 25px;
-    display: inline-block;
     padding: 15px 5px;
     font-size: 24px;
+    font-weight: 100;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
    /* cursor: pointer;*/
     text-align: center;
     text-decoration: none;
@@ -610,9 +658,12 @@ h3 {
 }
 #meat {
     height: 25px;
-    display: inline-block;
     padding: 15px 5px;
     font-size: 24px;
+    font-weight: 100;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
    /* cursor: pointer;*/
     text-align: center;
     text-decoration: none;
@@ -625,15 +676,42 @@ h3 {
 
 }
 
+#meal_generated{
+    height: 25px;
+    display: block;
+    padding: 15px 5px;
+    font-size: 24px;
+    margin-left: auto;
+    margin-right: auto;
+   /* cursor: pointer;*/
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #000;
+    /*background-color: #5b44dd; /*rgb(31, 30, 102);*/
+    border: none;
+    border-radius: 15px; /*Larger border-radius makes the block rounder*/
+   /* box-shadow: 0 9px #999;*/
+
+
+}
+
+/*END OF TRY YOU LUCK*/
+
 /* INDEX */
 
-#meal-of-day{
+.article #meal-suggestion{
     padding-top: 40px;
-    padding-bottom: 10px;
-    text-align: start;
+}
+
+#meal-suggestion{
+    text-align: center;
     margin-left: 18px;
+    margin-right: 18px;
+}
+
+#meal-of-day{
     font-size: 36pt;
-    width: fit-content;
 }
 
 #meal-name{
@@ -641,9 +719,8 @@ h3 {
 }
 
 #meal-description{
-    margin-bottom: 20px;
-    text-align: start;
-    margin-left: 18px;
+    font-size: 14pt;
+
 }
 
 #meal-link{
@@ -670,6 +747,7 @@ h3 {
 }
 
 #about-us-image {
+    margin-top: 10px;
     width: 80%;
     max-width: 500px;
 }
@@ -678,12 +756,7 @@ h3 {
 
 /* CONTACT */
 
-#contact-desc{
-        text-align: start;
-        
-        font-size: 14pt;
-        line-height: 1.6;
-}
+
 
 #contact-body{
     margin-left: 36px;
@@ -697,6 +770,15 @@ h3 {
 
 
 }
+
+#contact-desc{
+        text-align: start;
+        
+        font-size: 14pt;
+        line-height: 1.6;
+}
+
+
 
 #contact-form {
     margin-top: 10px;
@@ -716,6 +798,22 @@ h3 {
     background-color: white;
 }
 
+
+#proc{
+    height: 250px;
+    width:100%;
+    margin-bottom: 10px;
+    resize: none;
+
+}
+
+#submit-button{
+    border-color: black;
+    border-width: 1px;
+    padding: 5px 25px 5px 25px;
+    font-size: 12pt;
+
+}
+
+
 /* END CONTACT */
-
-

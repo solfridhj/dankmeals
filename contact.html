@@ -27,7 +27,7 @@
                     We always love to hear from you and appreciate any feedback you may have for us. 
                    Whether it is one of our recipes, if you have any questions or if you just want to share your ideas with us, use the provided contact form below!
                    <br><br>
-                   If you would like to suggest your own recipe, please use the suggestion form <a href="recipe_repository/suggestions.html">here.</a>
+                   If you would like to suggest your own recipe, please use our suggestion form <a id="to-sug-link" href="recipe_repository/suggestions.html">here.</a>
                    
                 </div>
 
@@ -39,25 +39,26 @@
                     <form action="recipe_repository/submitted.html" method="POST">
                         <div class="contact-form-child" id="contact-enter-name">
                         <label for="name">
-                            <input type="text" name="name" class="con" placeholder="Your Name" pattern="^^[a-zA-ZæøåÆØÅ\s\-]*$" autofocus>
+                            <input type="text" name="name" class="con" placeholder="Your Name" pattern="^^[a-zA-ZæøåÆØÅ\s\-]*$" autofocus required>
                         </label>
 
                         </div>
 
                         <div class="contact-form-child" id="contact-enter-email">
                         <label for="email">
-                                <input type="text" name="email" class="con" placeholder="E-mail adress" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                                <input type="text" name="email" class="con" placeholder="E-mail adress" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
                         </label>
                         </div>
-                    
-                        <label for="procedure" style="height:200px; padding-top: 30px;">
-                                <textarea name="procedure" id="proc" cols="90" row="100" wrap='soft' style="height:200px;" required>
-                                </textarea>
-                        </label>
                         <br>
-                        <label for="submit-button">
-                            <input type="submit" id="submit-button submit" value="Submit">
-                        </label>
+                        <div class=textArea>
+                            <label for="procedure">
+                                <textarea name="procedure" id="proc" cols="90" row="100" placeholder="What would you like to tell us?" required></textarea>
+                            </label>
+                            <br>
+                            <label for="submit-button">
+                                <input type="submit" id="submit-button" value="Submit">
+                            </label>
+                        </div>
                     </form>
                 </div>
             </div>

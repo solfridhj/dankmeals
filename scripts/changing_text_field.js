@@ -25,6 +25,7 @@ if (index_c >arr_carbs.length-1){
     
     rounds_c++; }
 }
+
 //veg
 function veg_func(){
 document.getElementById("veg").value=arr_veg[index_v];
@@ -39,9 +40,11 @@ if (index_v >arr_veg.length-1){
     
     rounds_v++; }
 }
+
 //meat
 function meat_func(){
 document.getElementById("meat").value=arr_meat[index_m];
+document.getElementById("meal_generated").value="Generating a meal...";
 index_m++;
 meat=setTimeout(meat_func,260); //second arguments give how many milliseconds each ingredient will display in the input field
 if (index_m >arr_meat.length-1){
@@ -49,7 +52,7 @@ if (index_m >arr_meat.length-1){
     if (rounds_m>0){
     clearTimeout(meat); //Prevent the function set with the setTimeout() to execute:
     document.getElementById("meat").value=arr_meat[Math.floor(Math.random() * arr_meat.length)];
-    document.getElementById("meal_generated").value="Woho you created a new meal. Enjoy!";
+    document.getElementById("meal_generated").value="Woho you created a new meal ";
     }
     
     rounds_m++; }
