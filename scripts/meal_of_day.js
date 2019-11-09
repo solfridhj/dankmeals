@@ -16,7 +16,7 @@ var vaffel = {
     name: "Sweet Potato Waffle",
     link: "vaffel.html",
     img_source: "vaffel.jpg",
-    description: "Try out this twist on the traditional wafles. Sweet and filling."
+    description: "Try out this twist on the traditional waffles. Sweet and filling."
 }
 
 var brodsuppe = {
