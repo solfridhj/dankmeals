@@ -50,7 +50,7 @@ meat=setTimeout(meat_func,260); //second arguments give how many milliseconds ea
     if (rounds_m>0){
     clearTimeout(meat); //Prevent the function set with the setTimeout() to execute:
     document.getElementById("meat").value=arr_meat[Math.floor(Math.random() * arr_meat.length)]; //Selecting a random element in the ingredient array. This is the actual meal generation.
-    document.getElementById("meal_generated").value="Woho you created a new meal ";
+    document.getElementById("meal_generated").value="Woho you created a new meal! ";
     }
     
     rounds_m++; 
