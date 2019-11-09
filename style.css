@@ -220,16 +220,20 @@ html, body{
     #to-hov {
         position: absolute;
         right: 15px;
-        top: -20px;
+        top: -25px;
         padding-right: 5px;
         padding-left: 5px;
-        padding-top: 0px;
-        padding-bottom: 10px;
+        padding-top: 5px;
+        padding-bottom: 7px;
     }
 
     #small-on-hover:hover #small-dropdown{
         display: block;
         text-decoration-line: none;
+    }
+
+    #small-on-hover:hover #to-hov{
+        background-color: #9FBACE;
     }
 
     #small-on-hover{

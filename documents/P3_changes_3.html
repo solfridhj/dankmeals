@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Design Changes</title>
+        <link rel="stylesheet" type="text/css" href="css/style_P3.css">
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+        <div class="doc">
+            <header>
+                <h1>P3 Design Changes</h1>
+                <p>Group 3</p>
+
+                <p>Solfrid Johansen, Emil Onsøyen and Ane Vigre Håland
+                </p>
+                <p>Date: 5.11.2019</p>
+            </header>
+
+            <hr>
+
+            <header>
+                <h2>Administrative details</h2>
+            </header>
+            <p>
+                Client: Imaginary students
+            </p>
+            <p>
+                Website: DankMeals
+            </p>
+
+            <p>
+                Link to webpage: <a href="http://folk.ntnu.no/solfrihj/dankmeals/index.html">Click here</a>
+            </p>
+    
+            <hr>
+
+            <header>
+                <h2>Changes that were made</h2>
+            </header>
+            <p>
+                Two of our groupmembers dropped out of the course near the end of the project, so 
+                many changes in work divisions were made (they did unfortunately not complete any of their original tasks). Due to time constraints, some changes to the design/functionality
+                was made. We did not include mockups for smaller screens in the P2 documents, so these design choices were made while creating the webpage.  
+            </p>
+
+            <p>
+                <strong>Changes to all html files:</strong> The font was changed from Rubicon to Helvetica, as we felt this gave a more modern look.
+            </p>
+
+            <p>
+                <strong>Changes to index.html:</strong> Changed from Meal of the Day to Suggested Meal as headline (explained in meal_of_day.js change section)
+            </p>
+
+            <p>
+                <strong>Changes to suggestions.html:</strong>
+            </p>
+
+            <p>
+                <strong>Changes to party.html/everyday.html/relax.html:</strong>
+            </p>
+
+            <p>
+                <strong>Changes to recipe.html:</strong>
+            </p>
+
+            <p>
+                    <strong>Changes to meal_of_day.js:</strong> Changed from meal_of_day.js, to generating a random meal and updating homepage.
+                    The original plan became too complicated, and we desided that this random functionallity could give the user more suggestions for
+                    recipes every time they entered page, not just once every day. 
+            </p>
+
+            <p>
+                <strong>Changes to search.html:</strong> Added so the user knows they typed something in, but as we have no backend, they recieve an error message. 
+            </p>
+
+            <p>
+                <strong>Changes to try_your_luck_meal.html:</strong> Many design changes to make it more visually appealing. 
+            </p>
+
+            <hr>
+
+            <header>
+                <h2>Updated Organizational Scheme</h2>
+            </header>
+            <p>
+                
+            </p>
+    
+        <div id="plan" class="doc">
+            <h2>Plan</h2>
+            <p> All files are gathered in a folder 'dankmeals'. Files that
+                 had a filename change or were added are colored <span style="color:green;">green</span>. 
+            <ul>
+                <li><span style="color:green;">index.html (changed filename from homepage.html) </span></li>
+                <li>about.html</li>
+                <li>contact.html</li>
+                <li><span style="color:green;">search.html (added)</span> </li>
+                <li><span style="color:green;">menu.svg</span></li>
+                <li>recipe_repository/</li>
+                
+                <ul>
+                    <li>party.html</li>
+                    <li>everyday.html</li>
+                    <li>relax.html</li>
+                    <li>suggestions.html</li>
+                    <li><span style="color:green;">recipe.html (added file)</span></li>
+                    <li><span style="color:green;">recipes/ (from recipe to recipes)</span> </li>
+                        <ul>
+                            <li>foccacia.html</li>
+                            <li>tapas.html</li>
+                            <li>...</li>
+                        </ul>
+
+                    </li>
+                  
+                </ul>
+                <li>try_your_luck_meal.html</li>
+                <li>try_your_luck_drink.html</li>
+                <li><span style="color:green;">img/ (from images to img)</span></li>
+                <ul>
+                    <li>foccacia.jpg</li>
+                    <li>tapas.jpg</li>
+                    <li>...</li>
+                </ul>
+                <li>scripts</li>
+                <ul>
+                    <li>changing_text_fields.js</li>
+                    <li>calc_ingredients.js</li>
+                    <li>meal_of_day.js</li>
+                    <li>navbar.js (name change)
+                    </li>
+                    
+                </ul>
+                <li>style.css</li>
+            </ul>
+            <h3>Final work division</h3>
+            <table>
+                    <tr>
+                      <th>Filename</th>
+                      <th>Description</th>
+                      <th>In charge</th>
+                     
+                    </tr>
+                    <tr>
+                        <td>index.html</td>
+                        <td>The homepage</td>
+                        <td>Emil</td>
+                       
+                    </tr>
+                    <tr>
+                        <td>search.html</td>
+                        <td>Search confirmation page</td>
+                        <td>Emil</td>
+                           
+                    </tr>
+
+                    <tr>
+                            <td>submitted.html</td>
+                            <td>Confirmation of form submission</td>
+                            <td>Emil</td>
+                               
+                        </tr>
+                     <tr>
+                        <td>about.html</td>
+                        <td>Brief introduciton to the purpose and goals of this website.</td>
+                        <td>Emil</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>recipes.html</td>
+                        <td>Can select recipe category and link to suggestion form.</td>
+                        <td>Emil</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>party.html</td>
+                        <td>Find suitable recipes for a party and make a step by step tutorial.</td>
+                        <td>Ane</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>everyday.html</td>
+                        <td>Find suitable recipes for a everyday meal and make a step by step tutorial.</td>
+                        <td>Ane</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>relax.html</td>
+                        <td>Find suitable recipes for a relaxing event and make a step by step tutorial.</td>
+                        <td>Ane</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>foccacia.html</td>
+                        <td>Recipe for foccacia. Additional recipes will also be added, with the same layout</td>
+                        <td>Solfrid</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>suggestions.html</td>
+                        <td>Make a user friendly form where users can input recipes.</td>
+                        <td>Solfrid</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>try_your_luck_meal.html</td>
+                        <td>Make a fun and user friendly site where the user can get a random generated recipe by clicking a button.</td>
+                        <td>Ane</td>
+                        
+                    </tr>
+                    <tr>
+                            <td>try_your_luck_drink.html</td>
+                            <td>Make a fun and user friendly site where the user can get a random generated drink by clicking a button.</td>
+                            <td>Ane</td>
+                            
+                        </tr>
+                
+                    <tr>
+                        <td>navbar.js</td>
+                        <td>Make a script for importing the same navbar, that is to be used in several files to obtain a wholesome website. (also made navbar)</td>
+                        <td>Solfrid</td>
+                        
+                    </tr>
+                    <tr>
+                            <td>changing_text_fields.js</td>
+                            <td>Make a script that visualizes looping though all meals/drinks in list.</td>
+                            <td>Ane</td>
+                            
+                    </tr>
+                    <tr>
+                            <td>calc_ingredients.js</td>
+                            <td>Make a script that calculates amount of ingredients based on serving amount.</td>
+                            <td>Solfrid</td>
+                            
+                    </tr>
+                    <tr>
+                            <td>meal_of_day.js</td>
+                            <td>Make a script that loops though all meals and changes every day.</td>
+                            <td>Emil</td>
+                            
+                    </tr>
+                    <tr>
+                        <td>style.css</td>
+                        <td>The css file must contain all relevant classes and id's for styling all the sites.</td>
+                        <td>All</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Final check of all files</td>
+                        <td>Check for errors and bugs, and see that all the sites are responsive.</td>
+                        <td>All</td>
+                        
+                    </tr>
+                </table>
+            </div>
+    </body>
+</html>
