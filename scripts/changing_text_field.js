@@ -8,7 +8,6 @@ var arr_meat= ["steak", "chicken breast", "salmon","trout","calf","pork"];
 //declaring useful counting indexes
 var index_c=0; var rounds_c=0; var index_v=0; var rounds_v=0; var index_m=0; var rounds_m=0;
 var carb; var veg; var meat;
-var timer_is_on = 0;
 
 
 //Funciton for selecting an item in the arr_carbs to be displayed in the output field with id carbs
